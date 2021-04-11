@@ -1,0 +1,45 @@
+{
+    "name": "PlayerActionControls",
+    "maps": [
+        {
+            "name": "Action",
+            "id": "323686ab-0f15-4448-abd2-6ec6182dfea4",
+            "actions": [
+                {
+                    "name": "Whip",
+                    "type": "Button",
+                    "id": "7f70a29d-8bb5-4a86-9895-904752c34b08",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4da63400-b54a-432b-a0fe-b36b1bd901ee",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "Whip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Keyboard",
+            "bindingGroup": "Keyboard",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
