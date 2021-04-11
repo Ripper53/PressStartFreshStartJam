@@ -14,11 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Loop: 0
   frames:
-  - Interval: 0.1
-    sprite: {fileID: 9083711682260126643, guid: 46344e90e414d2941916b11c6bee3ec2, type: 3}
-  - Interval: 0.1
-    sprite: {fileID: 2142933594793787071, guid: 46344e90e414d2941916b11c6bee3ec2, type: 3}
-  - Interval: 0.1
-    sprite: {fileID: 561550906617316247, guid: 46344e90e414d2941916b11c6bee3ec2, type: 3}
-  - Interval: 0.1
-    sprite: {fileID: 2142933594793787071, guid: 46344e90e414d2941916b11c6bee3ec2, type: 3}
+  - Interval: 0.02
+    sprite: {fileID: 21300000, guid: 87976b0b21451874789c553579e2f0fe, type: 3}
+  - Interval: 0.02
+    sprite: {fileID: 21300000, guid: 01e050664517c0d408bcfa7c31c171d7, type: 3}
+  - Interval: 0.02
+    sprite: {fileID: 21300000, guid: 1207897c581d1cd4d82aa35459c59c00, type: 3}
+  - Interval: 0.02
+    sprite: {fileID: 21300000, guid: f7bec3fcea7959e47a889bcafb97fd93, type: 3}
+  - Interval: 0.02
+    sprite: {fileID: 21300000, guid: 70bd84a2de62b2244abd50c706597770, type: 3}
+  - Interval: 0.02
+    sprite: {fileID: 21300000, guid: 053f66c887ad01546a101d19bd892eb2, type: 3}
+  - Interval: 0.02
+    sprite: {fileID: 21300000, guid: a3c3c65a73863294ca599025e9b1ca95, type: 3}
+  - Interval: 0.02
+    sprite: {fileID: 21300000, guid: d8b9feb9f84e31d45baec420d315afdb, type: 3}
+  - Interval: 0.02
+    sprite: {fileID: 21300000, guid: 58f76c6342055b344913db7a45df92ba, type: 3}
+  - Interval: 0.02
+    sprite: {fileID: 21300000, guid: 42f2e066da576454485a4d68267f3053, type: 3}

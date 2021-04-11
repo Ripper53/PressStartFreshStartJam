@@ -4,37 +4,47 @@ using Platformer2DStarterKit.Utility;
 
 public class CharacterWhip : MonoBehaviour {
     public FrameAnimator Animator;
-    public SpriteAnimationBase DefaultAnimation;
     public SpriteAnimationBase WhipAnimation;
     public int HitIndex;
     public GetColliders HitGetColliders;
-    public CharacterMovement CharacterMovement;
-    public CharacterJump CharacterJump;
+    public CharacterAnimator CharacterAnimator;
+    public CharacterFlipAnimator CharacterFlipAnimator;
     public SpriteRenderer SpriteRenderer;
     public float HitOffsetX;
+    public float HitTime;
+
+    private float hitTimer = 0f;
 
     [System.NonSerialized]
     public bool WhipRequest = false;
+    private bool toHit = false;
 
     private void FixedUpdate() {
-        if (Animator.CurrentSpriteAnimation == WhipAnimation) {
-            if (Animator.IsFinished) {
-                SetValue(true);
-                Animator.SetAnimation(DefaultAnimation);
-            } else if (Animator.CurrentFrameIndex == HitIndex) {
+        if (hitTimer > 0f) {
+            hitTimer -= Time.fixedDeltaTime;
+        } else {
+            if (toHit) {
                 CharacterDeath.Kill(HitGetColliders);
+                toHit = false;
             }
-        } else if (WhipRequest) {
-            SetValue(false);
-            Animator.SetAnimation(WhipAnimation);
-            HitGetColliders.ShapeParameter.Offset.x = SpriteRenderer.flipX ? -HitOffsetX : HitOffsetX;
+            if (Animator.CurrentSpriteAnimation == WhipAnimation) {
+                if (Animator.IsFinished) {
+                    SetValue(true);
+                }
+            } else if (WhipRequest) {
+                SetValue(false);
+                Animator.SetAnimation(WhipAnimation);
+                HitGetColliders.ShapeParameter.Offset.x = SpriteRenderer.flipX ? -HitOffsetX : HitOffsetX;
+                hitTimer = HitTime;
+                toHit = true;
+            }
         }
         WhipRequest = false;
     }
 
     private void SetValue(bool value) {
-        CharacterMovement.enabled = value;
-        CharacterJump.enabled = value;
+        CharacterAnimator.enabled = value;
+        CharacterFlipAnimator.enabled = value;
     }
 
 }

@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5305399516553186582
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 430280705167744210, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.4375
+      objectReference: {fileID: 0}
+    - target: {fileID: 639244503795093761, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.4375
+      objectReference: {fileID: 0}
+    - target: {fileID: 2488653616623933485, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
+      propertyPath: DeadBody
+      value: 
+      objectReference: {fileID: 11400000, guid: d9151bf40e47ce74c8245f9d65f9c3f5, type: 2}
+    - target: {fileID: 4153203818049426389, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
+      propertyPath: IdleAnimation
+      value: 
+      objectReference: {fileID: 11400000, guid: a3898885e05dde84fb2b838c0c25d5b2, type: 2}
+    - target: {fileID: 4153203818049426389, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
+      propertyPath: WalkAnimation
+      value: 
+      objectReference: {fileID: 11400000, guid: 8d184c50d231d2c47b92cc8b58383aca, type: 2}
+    - target: {fileID: 5310419143294201211, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ff48b44bf5bf09a4bba9de58ff7cafe2, type: 3}
+    - target: {fileID: 5310419143492617665, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5310419143492617665, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5310419143492617665, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5310419143492617665, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5310419143492617665, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5310419143492617665, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5310419143492617665, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5310419143492617665, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5310419143492617665, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5310419143492617665, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5310419143492617665, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5310419143492617669, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
+      propertyPath: m_Size.x
+      value: 0.4375
+      objectReference: {fileID: 0}
+    - target: {fileID: 5310419143492617727, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
+      propertyPath: m_Name
+      value: Cat Character Variant Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 7237612517902215585, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
+      propertyPath: SpriteAnimation
+      value: 
+      objectReference: {fileID: 11400000, guid: a3898885e05dde84fb2b838c0c25d5b2, type: 2}
+    - target: {fileID: 8931290952932060865, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
+      propertyPath: Size.x
+      value: 0.5625
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
