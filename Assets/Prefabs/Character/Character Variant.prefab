@@ -4878,6 +4878,20 @@ MonoBehaviour:
   Transform: {fileID: 1261249525587184535}
   SpriteRenderer: {fileID: 1261249524852253485}
   DeadBody: {fileID: 0}
+  characterDeadBodyPooler: {fileID: 0}
+--- !u!114 &6745429305338762210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1261249525587184553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1ceeb2d66b5a57469a4aa8589d60490, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Character: {fileID: 1261249525587184530}
 --- !u!114 &23696646983786169
 MonoBehaviour:
   m_ObjectHideFlags: 0

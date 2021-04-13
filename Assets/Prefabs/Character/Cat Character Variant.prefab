@@ -81,12 +81,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5310419143492617727, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
       propertyPath: m_Name
-      value: Cat Character Variant Variant
+      value: Cat Character Variant
       objectReference: {fileID: 0}
     - target: {fileID: 7237612517902215585, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
       propertyPath: SpriteAnimation
       value: 
-      objectReference: {fileID: 11400000, guid: a3898885e05dde84fb2b838c0c25d5b2, type: 2}
+      objectReference: {fileID: 11400000, guid: 0a23d45aeaf402d4bba8445b895e6d1b, type: 2}
     - target: {fileID: 8931290952932060865, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
       propertyPath: Size.x
       value: 0.5625

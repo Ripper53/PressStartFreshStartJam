@@ -203,6 +203,10 @@ PrefabInstance:
       value: Player Character Variant
       objectReference: {fileID: 0}
     - target: {fileID: 1261249525587184553, guid: ed67409589df6a34eb8d0ae62d7968dc, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1261249525587184553, guid: ed67409589df6a34eb8d0ae62d7968dc, type: 3}
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}

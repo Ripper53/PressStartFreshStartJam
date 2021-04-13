@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10e7c5550d4f54c49a6af1657d76a99b, type: 3}
+  m_Name: OwlFlyingAnimation
+  m_EditorClassIdentifier: 
+  Loop: 1
+  frames:
+  - Interval: 0.1
+    sprite: {fileID: 21300000, guid: 2e0d611e870539b44a9974098021ad96, type: 3}
+  - Interval: 0.1
+    sprite: {fileID: 21300000, guid: 58d784573a276e4488ec3bdaa29f3cac, type: 3}
+  - Interval: 0.1
+    sprite: {fileID: 21300000, guid: a6b3ac7f72ae6be4cbe8c995231b3da2, type: 3}
+  - Interval: 0.1
+    sprite: {fileID: 21300000, guid: 58d784573a276e4488ec3bdaa29f3cac, type: 3}
