@@ -121,8 +121,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Transform: {fileID: 1623483600685818267}
-  Offset: {x: 1.5, y: 0}
-  Size: {x: 3, y: 1}
+  Offset: {x: 1.5, y: 0.5}
+  Size: {x: 3, y: 2}
 --- !u!1001 &3929218114672803641
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -152,6 +152,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1261249525587184534, guid: ed67409589df6a34eb8d0ae62d7968dc, type: 3}
       propertyPath: m_Interpolate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1261249525587184534, guid: ed67409589df6a34eb8d0ae62d7968dc, type: 3}
+      propertyPath: m_CollisionDetection
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1261249525587184535, guid: ed67409589df6a34eb8d0ae62d7968dc, type: 3}
@@ -230,6 +234,10 @@ PrefabInstance:
       propertyPath: Max
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 8843878445995955835, guid: ed67409589df6a34eb8d0ae62d7968dc, type: 3}
+      propertyPath: DeadBody
+      value: 
+      objectReference: {fileID: 11400000, guid: d9151bf40e47ce74c8245f9d65f9c3f5, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed67409589df6a34eb8d0ae62d7968dc, type: 3}
 --- !u!1 &2812419680438531216 stripped
