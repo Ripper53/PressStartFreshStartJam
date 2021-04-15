@@ -121,8 +121,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Transform: {fileID: 1623483600685818267}
-  Offset: {x: 1.5, y: 0.5}
-  Size: {x: 3, y: 2}
+  Offset: {x: 1.5, y: 0.25}
+  Size: {x: 3, y: 1.5}
 --- !u!1001 &3929218114672803641
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -213,6 +213,10 @@ PrefabInstance:
     - target: {fileID: 1261249525587184553, guid: ed67409589df6a34eb8d0ae62d7968dc, type: 3}
       propertyPath: m_TagString
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 1367271730314233833, guid: ed67409589df6a34eb8d0ae62d7968dc, type: 3}
+      propertyPath: MinVelocityY
+      value: -15
       objectReference: {fileID: 0}
     - target: {fileID: 2576318594587697303, guid: ed67409589df6a34eb8d0ae62d7968dc, type: 3}
       propertyPath: Size.x

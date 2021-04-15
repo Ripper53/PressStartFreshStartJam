@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &2922857411004015660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919762221486880881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8ddcc0baa407bc488c80904dc802821, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioClip: {fileID: 0}
+  Transform: {fileID: 8713543252577236824}
+--- !u!1001 &2819027978769869045
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3722184113440284780, guid: b1285caefce147640a6f66db057d8b62, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4118665979213663933, guid: b1285caefce147640a6f66db057d8b62, type: 3}
+      propertyPath: SpriteAnimation
+      value: 
+      objectReference: {fileID: 11400000, guid: a73810aa5b53b0045a8327a08684d33c, type: 2}
+    - target: {fileID: 4448270636586340484, guid: b1285caefce147640a6f66db057d8b62, type: 3}
+      propertyPath: m_Name
+      value: Lava Drop Effect Variant Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 6914022061327851437, guid: b1285caefce147640a6f66db057d8b62, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6914022061327851437, guid: b1285caefce147640a6f66db057d8b62, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6914022061327851437, guid: b1285caefce147640a6f66db057d8b62, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6914022061327851437, guid: b1285caefce147640a6f66db057d8b62, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6914022061327851437, guid: b1285caefce147640a6f66db057d8b62, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6914022061327851437, guid: b1285caefce147640a6f66db057d8b62, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6914022061327851437, guid: b1285caefce147640a6f66db057d8b62, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6914022061327851437, guid: b1285caefce147640a6f66db057d8b62, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6914022061327851437, guid: b1285caefce147640a6f66db057d8b62, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6914022061327851437, guid: b1285caefce147640a6f66db057d8b62, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6914022061327851437, guid: b1285caefce147640a6f66db057d8b62, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b1285caefce147640a6f66db057d8b62, type: 3}
+--- !u!1 &1919762221486880881 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4448270636586340484, guid: b1285caefce147640a6f66db057d8b62, type: 3}
+  m_PrefabInstance: {fileID: 2819027978769869045}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8713543252577236824 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6914022061327851437, guid: b1285caefce147640a6f66db057d8b62, type: 3}
+  m_PrefabInstance: {fileID: 2819027978769869045}
+  m_PrefabAsset: {fileID: 0}

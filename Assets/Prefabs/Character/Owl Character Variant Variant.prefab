@@ -17,8 +17,8 @@ MonoBehaviour:
     FlyingAnimation: {fileID: 11400000, guid: e2ffc3d87b9b9e24ba75590c81477d5e, type: 2}
     Speed: 2
     Amplitude: 1
-    FollowGetColliders: {fileID: 4364191876207553741}
-    AttackGetColliders: {fileID: 226650889998733153}
+    FollowGetColliders: {fileID: 6627968569395339152}
+    AttackGetColliders: {fileID: 4521618882642651133}
     HoverGroundBelowCheck: {fileID: 6195058869631686249}
     PatrolAIAction:
       PatrolTime: 1
@@ -27,9 +27,9 @@ MonoBehaviour:
   AttackAIAction:
     AttackAnimation: {fileID: 11400000, guid: f8b36b0b8d8d1234db497aaefeac5503, type: 2}
     AttackTime: 0.2
-    AttackCheck: {fileID: 7260645609822058644}
-    AttackGetColliders: {fileID: 7395712742569783572}
-    AttackOffsetX: 0.5
+    AttackCheck: {fileID: 2242489727894196823}
+    AttackGetColliders: {fileID: 7585938823896598142}
+    AttackOffsetX: 0.25
   SetAnimationAIAction:
     Animation: {fileID: 11400000, guid: 3e9fa1eba1d785048b5231aef39a9900, type: 2}
 --- !u!1 &1839541715993640331
@@ -104,6 +104,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1974220394505598983}
+  - component: {fileID: 6627968569395339152}
   - component: {fileID: 4364191876207553741}
   - component: {fileID: 2673117350317232373}
   m_Layer: 7
@@ -127,6 +128,23 @@ Transform:
   m_Father: {fileID: 6650157846048979657}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6627968569395339152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4068374076799334765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e2925d1291b87b44a1b988b2bb7c9a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LayerMask:
+    serializedVersion: 2
+    m_Bits: 576
+  GetColliders: {fileID: 4364191876207553741}
+  Origin: {fileID: 6650157846048979657}
 --- !u!114 &4364191876207553741
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -167,7 +185,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5023092333176753286}
-  - component: {fileID: 7260645609822058644}
+  - component: {fileID: 2242489727894196823}
+  - component: {fileID: 4238004132617915739}
   - component: {fileID: 4932415296424298656}
   m_Layer: 7
   m_Name: AttackCheck
@@ -190,7 +209,7 @@ Transform:
   m_Father: {fileID: 6650157846048979657}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7260645609822058644
+--- !u!114 &2242489727894196823
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -199,7 +218,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 5518910191044173898}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0007cb9a79a212e448b259b1ab5b804a, type: 3}
+  m_Script: {fileID: 11500000, guid: bf116c8b378fc3e41a664926e27a0509, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LayerMask:
+    serializedVersion: 2
+    m_Bits: 576
+  GetColliders: {fileID: 4238004132617915739}
+  Origin: {fileID: 6650157846048979657}
+--- !u!114 &4238004132617915739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5518910191044173898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: addf95d771e64c04e903aa7a35b88cd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   LayerMask:
@@ -220,7 +256,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Transform: {fileID: 5023092333176753286}
   Offset: {x: 0, y: 0}
-  Radius: 1
+  Radius: 0.5
 --- !u!1 &5716957826187121276
 GameObject:
   m_ObjectHideFlags: 0
@@ -230,6 +266,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3910766071522020517}
+  - component: {fileID: 7585938823896598142}
   - component: {fileID: 7395712742569783572}
   - component: {fileID: 4127168465994062643}
   m_Layer: 7
@@ -253,6 +290,23 @@ Transform:
   m_Father: {fileID: 6650157846048979657}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7585938823896598142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5716957826187121276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e2925d1291b87b44a1b988b2bb7c9a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LayerMask:
+    serializedVersion: 2
+    m_Bits: 512
+  GetColliders: {fileID: 7395712742569783572}
+  Origin: {fileID: 6650157846048979657}
 --- !u!114 &7395712742569783572
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -282,8 +336,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Transform: {fileID: 3910766071522020517}
-  Offset: {x: 0.5, y: -0.25}
-  Radius: 0.5
+  Offset: {x: 0.25, y: -0.25}
+  Radius: 0.25
 --- !u!1 &9209895407708763185
 GameObject:
   m_ObjectHideFlags: 0
@@ -293,6 +347,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4312008701829618114}
+  - component: {fileID: 4521618882642651133}
   - component: {fileID: 226650889998733153}
   - component: {fileID: 1988408375654516953}
   m_Layer: 7
@@ -316,6 +371,23 @@ Transform:
   m_Father: {fileID: 6650157846048979657}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4521618882642651133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9209895407708763185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e2925d1291b87b44a1b988b2bb7c9a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LayerMask:
+    serializedVersion: 2
+    m_Bits: 576
+  GetColliders: {fileID: 226650889998733153}
+  Origin: {fileID: 6650157846048979657}
 --- !u!114 &226650889998733153
 MonoBehaviour:
   m_ObjectHideFlags: 0
