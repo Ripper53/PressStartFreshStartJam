@@ -33,7 +33,7 @@ SpriteAtlas:
     packables:
     - {fileID: 102900000, guid: e34b8b7a4b646854994fdb23e5cb9ca7, type: 3}
     - {fileID: 102900000, guid: 0bac890dafb4f214cae33bc509c23496, type: 3}
-    totalSpriteSurfaceArea: 39936
+    totalSpriteSurfaceArea: 42496
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -46,6 +46,8 @@ SpriteAtlas:
   - {fileID: 561550906617316247, guid: 46344e90e414d2941916b11c6bee3ec2, type: 3}
   - {fileID: 9083711682260126643, guid: 46344e90e414d2941916b11c6bee3ec2, type: 3}
   - {fileID: 2142933594793787071, guid: 46344e90e414d2941916b11c6bee3ec2, type: 3}
+  - {fileID: 21300000, guid: e078c7d0d237b554480e1c4f0bb041ac, type: 3}
+  - {fileID: 21300000, guid: d2e43151cb781d3408d56e0751450f73, type: 3}
   - {fileID: 21300000, guid: 6a114361fda72314dbb0033a66c1dee7, type: 3}
   - {fileID: 21300000, guid: e979b0717f807d5479310dd470896065, type: 3}
   - {fileID: 21300000, guid: 59a6c6716b865fc468886f887f8f14f2, type: 3}
@@ -59,6 +61,8 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 872b7fd3a096e3e419dea6887dfed46d, type: 3}
   - {fileID: 21300000, guid: 223a5c34cc84c4741818e35b3a78f5dc, type: 3}
   - {fileID: 21300000, guid: ce96c325183ead74fb04362149530971, type: 3}
+  - {fileID: 21300000, guid: 2d34bd454dafc87428fc9e8da2215c9b, type: 3}
+  - {fileID: 21300000, guid: bd5d3c5549a1c1547a48791eaf023922, type: 3}
   - {fileID: 21300000, guid: 01e050664517c0d408bcfa7c31c171d7, type: 3}
   - {fileID: 21300000, guid: 42f2e066da576454485a4d68267f3053, type: 3}
   - {fileID: 21300000, guid: 4ed4d6762f268054894305d83441e2a6, type: 3}
@@ -71,7 +75,11 @@ SpriteAtlas:
   - {fileID: 21300000, guid: d8b9feb9f84e31d45baec420d315afdb, type: 3}
   - {fileID: 21300000, guid: 74ca464ad3d91aa41a3f6d4013c85c39, type: 3}
   - {fileID: 21300000, guid: 34e4df4a246b9cb47b386fd222a97494, type: 3}
+  - {fileID: 21300000, guid: 59cd925ac7b22fd4ab75c735109cf919, type: 3}
   - {fileID: 21300000, guid: a3c3c65a73863294ca599025e9b1ca95, type: 3}
+  - {fileID: 21300000, guid: e5ce227a892ae3f4eafd587cbb8d6e96, type: 3}
+  - {fileID: 21300000, guid: e53c948a5c3249f4c8f91717266dc5e4, type: 3}
+  - {fileID: 21300000, guid: 544100ca3ef92e8469a5221ccfa53883, type: 3}
   - {fileID: 21300000, guid: 573881daca6d66e489317546a48dec77, type: 3}
   - {fileID: 21300000, guid: 32ba98da67a625441a3be47b2a450618, type: 3}
   - {fileID: 21300000, guid: 87976b0b21451874789c553579e2f0fe, type: 3}
@@ -79,6 +87,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: ca0f495b9c0cd1542b64bc253fd1c7c5, type: 3}
   - {fileID: 21300000, guid: 076061bb551340e44bd9ec9e7219bbb4, type: 3}
   - {fileID: 21300000, guid: e87e96db4a9dfa7438c85b34b989b286, type: 3}
+  - {fileID: 21300000, guid: d9a166eb514f3304e882cd4e8dc8fda3, type: 3}
   - {fileID: 21300000, guid: a7ccbd5cfcff1e7418ac7a55860c68e4, type: 3}
   - {fileID: 21300000, guid: e139df6cb362fc24282d38377867a4f6, type: 3}
   - {fileID: 21300000, guid: 1207897c581d1cd4d82aa35459c59c00, type: 3}
@@ -86,6 +95,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: f18d6a7d50212fa44af4572cfd4d9c14, type: 3}
   - {fileID: 21300000, guid: 050b0c0ec3238b64bb956c1d4a7316d4, type: 3}
   - {fileID: 21300000, guid: 2e0d611e870539b44a9974098021ad96, type: 3}
+  - {fileID: 21300000, guid: a4138aae78a00354cb91264da558ee23, type: 3}
   - {fileID: 21300000, guid: a6b3ac7f72ae6be4cbe8c995231b3da2, type: 3}
   m_PackedSpriteNamesToIndex:
   - Cat_Walk0
@@ -95,6 +105,8 @@ SpriteAtlas:
   - DirtGround_Hall
   - DirtGround_DeadEnd
   - DirtGround_Edge
+  - LaserRiver2
+  - LaserRiver5
   - GreenPillar
   - TileShadowEdgeStandalone
   - Cat_Walk1
@@ -108,6 +120,8 @@ SpriteAtlas:
   - Whip
   - Owl_Attack0
   - TileShadowEdgeConnect
+  - LaserRiver4
+  - LaserRiver1
   - Explorer_Whip1
   - Explorer_Whip9
   - Owl_DeadBody
@@ -120,7 +134,11 @@ SpriteAtlas:
   - Explorer_Whip7
   - Owl_Attack2
   - Explorer_Walk1
+  - LaserRiver6
   - Explorer_Whip6
+  - Explorer_Death0
+  - LaserRiver0
+  - LaserRiver7
   - CaveEntranceFront
   - Owl_Attack1
   - Explorer_Whip0
@@ -128,6 +146,7 @@ SpriteAtlas:
   - TileShadowEdge
   - Explorer_Idle
   - Pillar
+  - LaserRiver3
   - Owl_Idle
   - Explorer_Walk0
   - Explorer_Whip2
@@ -135,6 +154,7 @@ SpriteAtlas:
   - Owl_Walk1
   - GrassBox
   - Owl_Flying0
+  - Explorer_Death1
   - Owl_Flying2
   m_RenderDataMap: {}
   m_Tag: MainAtlas
