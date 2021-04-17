@@ -4,7 +4,7 @@ using Platformer2DStarterKit.AI;
 using Platformer2DStarterKit.Utility;
 
 [System.Serializable]
-public class FlyAIAction : IAIAction, IAIAction.IStartable, IAIAction.ICancelable {
+public class FlyAIAction : IAIAction, IAIAction.IConditional, IAIAction.IStartable, IAIAction.ICancelable {
     public CharacterAnimator CharacterAnimator;
 
     public SpriteAnimationBase FlyingAnimation;
@@ -17,6 +17,28 @@ public class FlyAIAction : IAIAction, IAIAction.IStartable, IAIAction.ICancelabl
 
     public PatrolAIAction PatrolAIAction;
 
+    private Collider2D col;
+    private enum State {
+        None, Hover, Follow, Attack
+    }
+    private State currentState = State.None;
+    public bool Condition(IAIAction.IConditional.Token token) {
+        switch (currentState) {
+            case State.Hover:
+                return true;
+            default:
+                if (AttackGetColliders.Get(out col)) {
+                    currentState = State.Attack;
+                    return true;
+                } else if (FollowGetColliders.Get(out col)) {
+                    currentState = State.Follow;
+                    return true;
+                }
+                break;
+        }
+        return false;
+    }
+
     public void Start(IAIAction.IStartable.Token token) {
         token.Source.Movement.enabled = false;
         token.Source.Jump.enabled = false;
@@ -27,6 +49,7 @@ public class FlyAIAction : IAIAction, IAIAction.IStartable, IAIAction.ICancelabl
     }
 
     public void Cancel(IAIAction.ICancelable.Token token) {
+        currentState = State.None;
         token.Source.Character.Input.Dir = CharacterInput.Direction.None;
         token.Source.Rigidbody.gravityScale = 1f;
         token.Source.Movement.enabled = true;
@@ -35,12 +58,15 @@ public class FlyAIAction : IAIAction, IAIAction.IStartable, IAIAction.ICancelabl
     }
 
     public bool Execute(AIActionList.Token token) {
-        if (AttackGetColliders.Get(out Collider2D col)) {
-            return Target(token, col);
-        } else if (FollowGetColliders.Get(out col)) {
-            return Fly(token, col);
-        } else {
-            return Hover(token);
+        switch (currentState) {
+            case State.Attack:
+                Target(token);
+                return true;
+            case State.Follow:
+                Fly(token);
+                return true;
+            default:
+                return Hover(token);
         }
     }
 
@@ -49,7 +75,7 @@ public class FlyAIAction : IAIAction, IAIAction.IStartable, IAIAction.ICancelabl
     }
 
     private float prevFuncY = 0f, x = 0f;
-    private bool Fly(AIActionList.Token token, Collider2D col) {
+    private void Fly(AIActionList.Token token) {
         Vector2 move = new Vector2(Speed * Time.fixedDeltaTime, 0f);
         x = (x + move.x) % (2f * Mathf.PI);
         float funcY = FunctionY(x);
@@ -65,14 +91,12 @@ public class FlyAIAction : IAIAction, IAIAction.IStartable, IAIAction.ICancelabl
         move.x = newX;
 
         token.Source.MovementExecution.AddPosition(move);
-        return true;
     }
 
-    private bool Target(AIActionList.Token token, Collider2D targetCol) {
-        Vector2 dir = (Vector2)targetCol.transform.position - token.Source.Rigidbody.position;
+    private void Target(AIActionList.Token token) {
+        Vector2 dir = (Vector2)col.transform.position - token.Source.Rigidbody.position;
         FaceDirection(token, dir);
         token.Source.MovementExecution.AddPosition(dir.normalized * Speed * Time.fixedDeltaTime);
-        return true;
     }
 
     private static void FaceDirection(AIActionList.Token token, Vector2 dir) {

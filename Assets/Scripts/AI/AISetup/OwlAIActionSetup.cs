@@ -8,7 +8,7 @@ public class OwlAIActionSetup : AIActionSetup {
     protected override void Setup(ICharacter character) {
         character.ActionList.ClearActions();
 
-        ComboAIAction comboAIAction = new ComboAIAction {
+        ConditionalComboAIAction<AttackAIAction> comboAIAction = new ConditionalComboAIAction<AttackAIAction> {
             Action = AttackAIAction,
             ActionList = new AIActionList(character, character.ActionList.PoolerRepository),
             ExecuteAll = false

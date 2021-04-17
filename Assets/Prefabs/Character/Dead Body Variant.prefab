@@ -8,9 +8,9 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 7339246432359714704, guid: da074595a7351c94092535ac9d41170d, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: ea7a01b66b079604299b247242543e97, type: 2}
+      propertyPath: m_LinearDrag
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7339246432359714705, guid: da074595a7351c94092535ac9d41170d, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -54,6 +54,18 @@ PrefabInstance:
     - target: {fileID: 7339246432359714705, guid: da074595a7351c94092535ac9d41170d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7339246432359714706, guid: da074595a7351c94092535ac9d41170d, type: 3}
+      propertyPath: m_Color.b
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 7339246432359714706, guid: da074595a7351c94092535ac9d41170d, type: 3}
+      propertyPath: m_Color.g
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 7339246432359714706, guid: da074595a7351c94092535ac9d41170d, type: 3}
+      propertyPath: m_Color.r
+      value: 0.75
       objectReference: {fileID: 0}
     - target: {fileID: 7339246432359714707, guid: da074595a7351c94092535ac9d41170d, type: 3}
       propertyPath: m_Name

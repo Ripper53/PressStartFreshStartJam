@@ -142,6 +142,14 @@ PrefabInstance:
       propertyPath: m_Size.x
       value: 0.4375
       objectReference: {fileID: 0}
+    - target: {fileID: 1261249525587184531, guid: ed67409589df6a34eb8d0ae62d7968dc, type: 3}
+      propertyPath: m_Size.y
+      value: 0.7375
+      objectReference: {fileID: 0}
+    - target: {fileID: 1261249525587184531, guid: ed67409589df6a34eb8d0ae62d7968dc, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.0375
+      objectReference: {fileID: 0}
     - target: {fileID: 1261249525587184532, guid: ed67409589df6a34eb8d0ae62d7968dc, type: 3}
       propertyPath: Force.x
       value: 8
@@ -228,7 +236,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6507532239596857083, guid: ed67409589df6a34eb8d0ae62d7968dc, type: 3}
       propertyPath: CoyoteTime
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6758240390403625604, guid: ed67409589df6a34eb8d0ae62d7968dc, type: 3}
       propertyPath: m_LocalPosition.x

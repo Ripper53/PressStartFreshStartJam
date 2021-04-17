@@ -4,7 +4,7 @@ using Platformer2DStarterKit.AI;
 using Platformer2DStarterKit.Utility;
 
 [System.Serializable]
-public class PatrolAIAction : IAIAction, IAIAction.IStartable, IAIAction.ICancelable {
+public class PatrolAIAction : IAIAction, IAIAction.IConditional, IAIAction.IStartable, IAIAction.ICancelable {
     public float PatrolTime;
     public float PauseTime;
     public float ActionTime;
@@ -21,6 +21,10 @@ public class PatrolAIAction : IAIAction, IAIAction.IStartable, IAIAction.ICancel
 
     public void SetTime() {
         timer.SetTime(ActionTime);
+    }
+
+    public bool Condition(IAIAction.IConditional.Token token) {
+        return timer.Execute(Time.fixedDeltaTime);
     }
 
     public void Start(IAIAction.IStartable.Token token) {
@@ -40,8 +44,6 @@ public class PatrolAIAction : IAIAction, IAIAction.IStartable, IAIAction.ICancel
     }
 
     public bool Execute(AIActionList.Token token) {
-        if (!timer.Execute(Time.fixedDeltaTime)) return false;
-
         if (!patrolTimer.Execute(Time.fixedDeltaTime)) {
             switch (currentState) {
                 case State.Patrol:
@@ -61,7 +63,6 @@ public class PatrolAIAction : IAIAction, IAIAction.IStartable, IAIAction.ICancel
             else
                 token.Source.Wander.MovementAndJumpExecution(token.Source.Wander.LeftSide, out token.Source.Character.Input.Dir, ref token.Source.Character.Input.JumpRequest);
         }
-
         return true;
     }
 
