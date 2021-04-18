@@ -8,6 +8,9 @@ public class OwlAIActionSetup : AIActionSetup {
     protected override void Setup(ICharacter character) {
         character.ActionList.ClearActions();
 
+        FollowData followData = new FollowData(character);
+        FlyAIAction.FollowData = followData;
+
         ConditionalComboAIAction<AttackAIAction> comboAIAction = new ConditionalComboAIAction<AttackAIAction> {
             Action = AttackAIAction,
             ActionList = new AIActionList(character, character.ActionList.PoolerRepository),
@@ -16,6 +19,10 @@ public class OwlAIActionSetup : AIActionSetup {
         comboAIAction.ActionList.AddAction(new SetGravityScaleAIAction {
             SetValue = 0f,
             OffValue = 1f
+        });
+
+        character.ActionList.AddAction(new ExecuteDataAIAction {
+            FollowData = followData
         });
         character.ActionList.AddAction(comboAIAction);
         character.ActionList.AddAction(FlyAIAction);

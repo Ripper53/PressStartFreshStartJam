@@ -81,7 +81,7 @@ MonoBehaviour:
   Transform: {fileID: 1826619775897310183}
   Offset: {x: 0, y: 0}
   Radius: 1
---- !u!114 &8171753597945040713
+--- !u!114 &1556145195003373931
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -90,19 +90,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 2832666184335063592}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54e513a838abece4ca59c6f8faeefe0d, type: 3}
+  m_Script: {fileID: 11500000, guid: 21e3e7680769ca94595eb82c5ac3b8cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackAIAction:
-    AttackAnimation: {fileID: 11400000, guid: e86415909dadd9043ad420299a72c4bd, type: 2}
-    AttackTime: 0.1
-    AttackCheck: {fileID: 111262594878607482}
-    AttackGetColliders: {fileID: 1526867308555293606}
-    AttackOffsetX: 0
   CharacterInputFollowAIAction:
     GetColliders: {fileID: 6024211615071610030}
-  SetAnimationAIAction:
-    Animation: {fileID: 11400000, guid: e86415909dadd9043ad420299a72c4bd, type: 2}
+    FollowOffset: 0.5
+  SpiderAIAction:
+    FollowGetColliders: {fileID: 6024211615071610030}
+    FollowOffset: {x: 0.25, y: 0.25}
+    WallOffset: {x: 0.85, y: 0.6}
+    Animation: {fileID: 11400000, guid: 5e4c2e78b2ce7c844ac9356351653444, type: 2}
 --- !u!1 &8393952567151945352
 GameObject:
   m_ObjectHideFlags: 0
@@ -183,7 +181,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Transform: {fileID: 6832299136470242977}
   Offset: {x: 0, y: 0}
-  Radius: 4
+  Radius: 12
 --- !u!1 &8472420036057697581
 GameObject:
   m_ObjectHideFlags: 0
@@ -291,7 +289,15 @@ PrefabInstance:
     - target: {fileID: 4153203818049426389, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
       propertyPath: WalkAnimation
       value: 
-      objectReference: {fileID: 11400000, guid: e86415909dadd9043ad420299a72c4bd, type: 2}
+      objectReference: {fileID: 11400000, guid: 5e4c2e78b2ce7c844ac9356351653444, type: 2}
+    - target: {fileID: 4519883421969426622, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
+      propertyPath: Size.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4519883421969426622, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
+      propertyPath: Offset.y
+      value: -2
+      objectReference: {fileID: 0}
     - target: {fileID: 4533601864642133130, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.5
@@ -352,6 +358,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spider Enemy Character Variant Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 5389467025999301055, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
+      propertyPath: MinVelocityY
+      value: -5
+      objectReference: {fileID: 0}
     - target: {fileID: 5991360031585126945, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.125
@@ -371,6 +381,14 @@ PrefabInstance:
     - target: {fileID: 7655742657458697947, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8209796647312191560, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
+      propertyPath: Size.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8209796647312191560, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
+      propertyPath: Offset.y
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 8638507510682031473, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
       propertyPath: m_LocalPosition.x

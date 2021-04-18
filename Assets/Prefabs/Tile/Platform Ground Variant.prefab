@@ -13,11 +13,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1836757516257960110, guid: aa3eb9cd351f0b7478dd818bd4ad54b4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 34
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1836757516257960110, guid: aa3eb9cd351f0b7478dd818bd4ad54b4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1836757516257960110, guid: aa3eb9cd351f0b7478dd818bd4ad54b4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -85,7 +85,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1836757516257960145, guid: aa3eb9cd351f0b7478dd818bd4ad54b4, type: 3}
       propertyPath: m_Name
-      value: Platform Ground
+      value: Platform Ground Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3eb9cd351f0b7478dd818bd4ad54b4, type: 3}

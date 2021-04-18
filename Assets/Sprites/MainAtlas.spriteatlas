@@ -33,7 +33,7 @@ SpriteAtlas:
     packables:
     - {fileID: 102900000, guid: e34b8b7a4b646854994fdb23e5cb9ca7, type: 3}
     - {fileID: 102900000, guid: 0bac890dafb4f214cae33bc509c23496, type: 3}
-    totalSpriteSurfaceArea: 42496
+    totalSpriteSurfaceArea: 44928
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -67,6 +67,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 42f2e066da576454485a4d68267f3053, type: 3}
   - {fileID: 21300000, guid: 4ed4d6762f268054894305d83441e2a6, type: 3}
   - {fileID: 21300000, guid: 58d784573a276e4488ec3bdaa29f3cac, type: 3}
+  - {fileID: 21300000, guid: adb62a8776d35b541a3a7e2a2d36d102, type: 3}
   - {fileID: 21300000, guid: 5b7dda185b17ddb4b8baf28a8479e25b, type: 3}
   - {fileID: 21300000, guid: b512d348e04d2fb418cbe3faf35ad612, type: 3}
   - {fileID: 21300000, guid: d0bddf781a2f51b4f8a900b5bf2d4dcb, type: 3}
@@ -97,6 +98,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 2e0d611e870539b44a9974098021ad96, type: 3}
   - {fileID: 21300000, guid: a4138aae78a00354cb91264da558ee23, type: 3}
   - {fileID: 21300000, guid: a6b3ac7f72ae6be4cbe8c995231b3da2, type: 3}
+  - {fileID: 21300000, guid: 419beeef4ee97bd419416a7a1e52eb9e, type: 3}
   m_PackedSpriteNamesToIndex:
   - Cat_Walk0
   - DirtGround_Standalone
@@ -126,6 +128,7 @@ SpriteAtlas:
   - Explorer_Whip9
   - Owl_DeadBody
   - Owl_Flying1
+  - Spider_Walk1
   - Spider_Idle
   - RockBackground
   - Box
@@ -156,6 +159,7 @@ SpriteAtlas:
   - Owl_Flying0
   - Explorer_Death1
   - Owl_Flying2
+  - Spider_Walk0
   m_RenderDataMap: {}
   m_Tag: MainAtlas
   m_IsVariant: 0

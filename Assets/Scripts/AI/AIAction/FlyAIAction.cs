@@ -17,7 +17,8 @@ public class FlyAIAction : IAIAction, IAIAction.IConditional, IAIAction.IStartab
 
     public PatrolAIAction PatrolAIAction;
 
-    private Collider2D col;
+    public FollowData FollowData;
+
     private enum State {
         None, Hover, Follow, Attack
     }
@@ -27,10 +28,12 @@ public class FlyAIAction : IAIAction, IAIAction.IConditional, IAIAction.IStartab
             case State.Hover:
                 return true;
             default:
-                if (AttackGetColliders.Get(out col)) {
+                if (AttackGetColliders.Get(out Collider2D col)) {
+                    FollowData.SetPosition(col.transform.position);
                     currentState = State.Attack;
                     return true;
                 } else if (FollowGetColliders.Get(out col)) {
+                    FollowData.SetPosition(col.transform.position);
                     currentState = State.Follow;
                     return true;
                 }
@@ -82,7 +85,7 @@ public class FlyAIAction : IAIAction, IAIAction.IConditional, IAIAction.IStartab
         move.y = (prevFuncY - funcY) * Amplitude;
         prevFuncY = funcY;
 
-        Vector2 dir = ((Vector2)col.transform.position - token.Source.Rigidbody.position).normalized;
+        Vector2 dir = (FollowData.Position - token.Source.Rigidbody.position).normalized;
         FaceDirection(token, dir);
         float angle = Mathf.Atan2(dir.y, dir.x);
         float sin = Mathf.Sin(angle), cos = Mathf.Cos(angle);
@@ -94,7 +97,7 @@ public class FlyAIAction : IAIAction, IAIAction.IConditional, IAIAction.IStartab
     }
 
     private void Target(AIActionList.Token token) {
-        Vector2 dir = (Vector2)col.transform.position - token.Source.Rigidbody.position;
+        Vector2 dir = FollowData.Position - token.Source.Rigidbody.position;
         FaceDirection(token, dir);
         token.Source.MovementExecution.AddPosition(dir.normalized * Speed * Time.fixedDeltaTime);
     }
