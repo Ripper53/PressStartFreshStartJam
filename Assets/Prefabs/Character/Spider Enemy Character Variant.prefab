@@ -93,14 +93,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21e3e7680769ca94595eb82c5ac3b8cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CharacterInputFollowAIAction:
-    GetColliders: {fileID: 6024211615071610030}
-    FollowOffset: 0.5
+  AttackAIAction:
+    AttackAnimation: {fileID: 11400000, guid: 3103f9f729c52f142a716f1a902e0e8f, type: 2}
+    AttackTime: 0.1
+    AttackCheck: {fileID: 111262594878607482}
+    AttackGetColliders: {fileID: 1526867308555293606}
+    AttackOffsetX: 0.75
   SpiderAIAction:
     FollowGetColliders: {fileID: 6024211615071610030}
     FollowOffset: {x: 0.25, y: 0.25}
     WallOffset: {x: 0.85, y: 0.6}
     Animation: {fileID: 11400000, guid: 5e4c2e78b2ce7c844ac9356351653444, type: 2}
+  CharacterInputFollowAIAction:
+    GetColliders: {fileID: 6024211615071610030}
+    FollowOffset: 0.5
 --- !u!1 &8393952567151945352
 GameObject:
   m_ObjectHideFlags: 0
@@ -261,8 +267,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Transform: {fileID: 4294601276786407400}
-  Offset: {x: 0, y: 0}
-  Radius: 1.2
+  Offset: {x: 0.75, y: 0}
+  Radius: 0.75
 --- !u!1001 &7997760657632182231
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -278,10 +284,18 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 1.225
       objectReference: {fileID: 0}
+    - target: {fileID: 2437190292129186700, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
+      propertyPath: Size.y
+      value: 0.8
+      objectReference: {fileID: 0}
     - target: {fileID: 2488653616623933485, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
       propertyPath: DeadBody
       value: 
       objectReference: {fileID: 11400000, guid: 21e3b0f2ce2c04d469b8869199c4cbbe, type: 2}
+    - target: {fileID: 2535244765805917513, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
+      propertyPath: Size.y
+      value: 0.8
+      objectReference: {fileID: 0}
     - target: {fileID: 4153203818049426389, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
       propertyPath: IdleAnimation
       value: 
@@ -290,13 +304,17 @@ PrefabInstance:
       propertyPath: WalkAnimation
       value: 
       objectReference: {fileID: 11400000, guid: 5e4c2e78b2ce7c844ac9356351653444, type: 2}
+    - target: {fileID: 4421003889670935666, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
+      propertyPath: Size.y
+      value: 0.8
+      objectReference: {fileID: 0}
     - target: {fileID: 4519883421969426622, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
       propertyPath: Size.y
-      value: 4
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 4519883421969426622, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
       propertyPath: Offset.y
-      value: -2
+      value: -8
       objectReference: {fileID: 0}
     - target: {fileID: 4533601864642133130, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -354,13 +372,25 @@ PrefabInstance:
       propertyPath: m_Size.x
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 5310419143492617669, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
+      propertyPath: m_Size.y
+      value: 0.7375
+      objectReference: {fileID: 0}
+    - target: {fileID: 5310419143492617669, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.03125
+      objectReference: {fileID: 0}
     - target: {fileID: 5310419143492617727, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
       propertyPath: m_Name
-      value: Spider Enemy Character Variant Variant
+      value: Spider Enemy Character Variant
       objectReference: {fileID: 0}
     - target: {fileID: 5389467025999301055, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
       propertyPath: MinVelocityY
       value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5979031836447614942, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
+      propertyPath: Size.y
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 5991360031585126945, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -384,11 +414,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8209796647312191560, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
       propertyPath: Size.y
-      value: 4
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 8209796647312191560, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
       propertyPath: Offset.y
-      value: -2
+      value: -8
       objectReference: {fileID: 0}
     - target: {fileID: 8638507510682031473, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
       propertyPath: m_LocalPosition.x

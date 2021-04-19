@@ -28,7 +28,7 @@ MonoBehaviour:
   Animator: {fileID: 3950585922475270528}
   WhipAnimation: {fileID: 11400000, guid: a73810aa5b53b0045a8327a08684d33c, type: 2}
   HitIndex: 2
-  HitGetColliders: {fileID: 3338172643200922033}
+  HitGetColliders: {fileID: 9104316739114164378}
   CharacterAnimator: {fileID: 6275478013076644538}
   CharacterFlipAnimator: {fileID: 4266812891462368989}
   SpriteRenderer: {fileID: 2812419679164357652}
@@ -69,6 +69,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1623483600685818267}
+  - component: {fileID: 9104316739114164378}
   - component: {fileID: 3338172643200922033}
   - component: {fileID: 930066485114235573}
   m_Layer: 0
@@ -92,6 +93,23 @@ Transform:
   m_Father: {fileID: 2812419680438531246}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9104316739114164378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7912491800933961211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e2925d1291b87b44a1b988b2bb7c9a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LayerMask:
+    serializedVersion: 2
+    m_Bits: 192
+  GetColliders: {fileID: 3338172643200922033}
+  Origin: {fileID: 2812419680438531246}
 --- !u!114 &3338172643200922033
 MonoBehaviour:
   m_ObjectHideFlags: 0

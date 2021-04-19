@@ -21,68 +21,94 @@ namespace Platformer2DStarterKit.AI {
             if (token.Source.Character.GroundCheck.Evaluate()) {
                 if (FollowGetColliders.Get(out Collider2D col))
                     FollowData.SetPosition(col.transform.position);
-                else if (FollowData.IsOn() && Vector2.Distance(FollowData.Position, token.Source.Rigidbody.position) < FollowOffset.x)
+                else if (!FollowData.IsOn() || Vector2.Distance(FollowData.Position, token.Source.Rigidbody.position) < FollowOffset.x)
                     return false;
                 Vector2 dir = FollowData.Position - token.Source.Rigidbody.position;
                 if (Mathf.Abs(dir.y) < FollowOffset.y)
                     return false;
-                speed = dir.y > 0f ? token.Source.Speed.GetAscendingValue() : -token.Source.Speed.GetAscendingValue();
+                bool belowY = dir.y < 0f;
+                speed = belowY ? -token.Source.Speed.GetAscendingValue() : token.Source.Speed.GetAscendingValue();
                 if (dir.x > 0f) {
                     // RIGHT
                     token.Source.SpriteRenderer.flipX = false;
-                    if (token.Source.Wander.RightSide.WallCheck.Evaluate()) {
-                        switch (currentDir) {
-                            case Direction.UP:
-                                currentDir = Direction.LEFT;
-                                angle = 270f;
-                                break;
-                            case Direction.RIGHT:
-                                currentDir = Direction.UP;
-                                angle = 180f;
-                                break;
-                            case Direction.DOWN:
-                                currentDir = Direction.RIGHT;
-                                angle = 90f;
-                                break;
-                            default:
-                                currentDir = Direction.DOWN;
-                                angle = 0f;
-                                return false;
-                        }
-                        wallOffset = WallOffset;
-                        wallOffsetSet = true;
-                        token.Source.MovementExecution.AddPosition(WallOffset);
+                    if (SetRightSide(token, belowY))
                         return true;
-                    }
                 } else {
                     // LEFT
                     token.Source.SpriteRenderer.flipX = true;
-                    if (token.Source.Wander.LeftSide.WallCheck.Evaluate()) {
-                        switch (currentDir) {
-                            case Direction.UP:
-                                currentDir = Direction.RIGHT;
-                                angle = -270f;
-                                break;
-                            case Direction.LEFT:
-                                currentDir = Direction.UP;
-                                angle = -180f;
-                                break;
-                            case Direction.DOWN:
-                                currentDir = Direction.LEFT;
-                                angle = -90f;
-                                break;
-                            default:
-                                currentDir = Direction.DOWN;
-                                angle = 0f;
-                                return false;
-                        }
-                        wallOffset = new Vector2(-WallOffset.x, WallOffset.y);
-                        wallOffsetSet = true;
+                    if (SetLeftSide(token, belowY))
                         return true;
-                    }
                 }
                 if (currentDir != Direction.DOWN)
                     return true;
+            }
+            return false;
+        }
+        private bool SetRightSide(IAIAction.IConditional.Token token, bool belowY) {
+            if (token.Source.Wander.RightSide.WallCheck.Evaluate()) {
+                switch (currentDir) {
+                    case Direction.UP:
+                        currentDir = Direction.LEFT;
+                        angle = 270f;
+                        break;
+                    case Direction.RIGHT:
+                        currentDir = Direction.UP;
+                        angle = 180f;
+                        break;
+                    case Direction.DOWN:
+                        if (belowY) {
+                            currentDir = Direction.LEFT;
+                            angle = 270f;
+                            wallOffset = new Vector2(0f, -WallOffset.y);
+                            wallOffsetSet = true;
+                            return true;
+                        } else {
+                            currentDir = Direction.RIGHT;
+                            angle = 90f;
+                        }
+                        break;
+                    default:
+                        currentDir = Direction.DOWN;
+                        angle = 0f;
+                        return false;
+                }
+                wallOffset = WallOffset;
+                wallOffsetSet = true;
+                return true;
+            }
+            return false;
+        }
+        private bool SetLeftSide(IAIAction.IConditional.Token token, bool belowY) {
+            if (token.Source.Wander.LeftSide.WallCheck.Evaluate()) {
+                switch (currentDir) {
+                    case Direction.UP:
+                        currentDir = Direction.RIGHT;
+                        angle = -270f;
+                        break;
+                    case Direction.LEFT:
+                        currentDir = Direction.UP;
+                        angle = -180f;
+                        break;
+                    case Direction.DOWN:
+                        if (belowY) {
+                            currentDir = Direction.RIGHT;
+                            angle = -270f;
+                            wallOffset = new Vector2(0f, -WallOffset.y);
+                            wallOffsetSet = true;
+                            return true;
+                        } else {
+                            currentDir = Direction.LEFT;
+                            angle = -90f;
+                        }
+                        break;
+                    default:
+                        currentDir = Direction.DOWN;
+                        angle = 0f;
+                        return false;
+                }
+                wallOffset = new Vector2(-WallOffset.x, WallOffset.y);
+                wallOffsetSet = true;
+                return true;
             }
             return false;
         }

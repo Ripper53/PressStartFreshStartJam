@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a093c0250d5eac64090400dc896a928b, type: 3}
   m_Name: SpiderDeadBody
   m_EditorClassIdentifier: 
-  Animation: {fileID: 11400000, guid: e86415909dadd9043ad420299a72c4bd, type: 2}
-  ColliderOffset: {x: 0, y: 0}
-  ColliderSize: {x: 2, y: 0.8}
+  Animation: {fileID: 11400000, guid: d990f61e89786454a8832e74d150b2ef, type: 2}
+  ColliderOffset: {x: 0, y: -0.03125}
+  ColliderSize: {x: 1.6875, y: 0.7375}

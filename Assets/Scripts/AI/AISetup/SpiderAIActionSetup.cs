@@ -1,8 +1,9 @@
 using Platformer2DStarterKit.AI;
 
 public class SpiderAIActionSetup : AIActionSetup {
-    public CharacterInputFollowAIAction CharacterInputFollowAIAction;
+    public AttackAIAction AttackAIAction;
     public SpiderAIAction SpiderAIAction;
+    public CharacterInputFollowAIAction CharacterInputFollowAIAction;
 
     protected override void Setup(ICharacter character) {
         character.ActionList.ClearActions();
@@ -14,6 +15,7 @@ public class SpiderAIActionSetup : AIActionSetup {
         character.ActionList.AddAction(new ExecuteDataAIAction {
             FollowData = followData
         });
+        character.ActionList.AddAction(AttackAIAction);
         character.ActionList.AddAction(SpiderAIAction);
         character.ActionList.AddAction(CharacterInputFollowAIAction);
     }

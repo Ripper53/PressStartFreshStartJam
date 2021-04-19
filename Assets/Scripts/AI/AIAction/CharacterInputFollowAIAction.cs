@@ -24,11 +24,11 @@ public class CharacterInputFollowAIAction : IAIAction, IAIAction.ICancelable {
     }
 
     private bool Follow(AIActionList.Token token) {
-        float dir = FollowData.Position.x - token.Source.Position.x;
-        if (dir > 0f) {
-            return token.Source.Wander.MovementAndJumpExecution(token.Source.Wander.RightSide, out token.Source.Character.Input.Dir, ref token.Source.Character.Input.JumpRequest);
+        Vector2 dir = FollowData.Position - token.Source.Position;
+        if (dir.x > 0f) {
+            return token.Source.Wander.MovementAndJumpExecution(token.Source.Wander.RightSide, out token.Source.Character.Input.Dir, ref token.Source.Character.Input.JumpRequest, dir.y);
         } else {
-            return token.Source.Wander.MovementAndJumpExecution(token.Source.Wander.LeftSide, out token.Source.Character.Input.Dir, ref token.Source.Character.Input.JumpRequest);
+            return token.Source.Wander.MovementAndJumpExecution(token.Source.Wander.LeftSide, out token.Source.Character.Input.Dir, ref token.Source.Character.Input.JumpRequest, dir.y);
         }
     }
 
