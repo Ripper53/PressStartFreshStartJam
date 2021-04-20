@@ -47,7 +47,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LayerMask:
     serializedVersion: 2
-    m_Bits: 576
+    m_Bits: 64
   GetColliders: {fileID: 5744862240923038174}
   Origin: {fileID: 5337935811528919}
 --- !u!114 &5744862240923038174
@@ -128,7 +128,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LayerMask:
     serializedVersion: 2
-    m_Bits: 576
+    m_Bits: 64
   GetColliders: {fileID: 2530022525780373966}
   Origin: {fileID: 5337935811528919}
 --- !u!114 &2530022525780373966
@@ -182,6 +182,7 @@ MonoBehaviour:
     AttackOffsetX: 0.125
   CharacterInputFollowAIAction:
     GetColliders: {fileID: 4449766250799591462}
+    FollowOffset: 0.2
   SetAnimationAIAction:
     Animation: {fileID: 11400000, guid: 0a23d45aeaf402d4bba8445b895e6d1b, type: 2}
 --- !u!1 &5596893064786975714
@@ -231,7 +232,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LayerMask:
     serializedVersion: 2
-    m_Bits: 576
+    m_Bits: 64
   GetColliders: {fileID: 2085840202565442155}
   Origin: {fileID: 5337935811528919}
 --- !u!114 &2085840202565442155
@@ -371,6 +372,10 @@ PrefabInstance:
     - target: {fileID: 5310419143492617727, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
       propertyPath: m_Name
       value: Cat Character Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 5310419143584048588, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
+      propertyPath: LayerMask.m_Bits
+      value: 192
       objectReference: {fileID: 0}
     - target: {fileID: 7237612517902215585, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
       propertyPath: SpriteAnimation

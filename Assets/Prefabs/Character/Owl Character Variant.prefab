@@ -142,7 +142,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LayerMask:
     serializedVersion: 2
-    m_Bits: 576
+    m_Bits: 64
   GetColliders: {fileID: 4364191876207553741}
   Origin: {fileID: 6650157846048979657}
 --- !u!114 &4364191876207553741
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LayerMask:
     serializedVersion: 2
-    m_Bits: 576
+    m_Bits: 64
   GetColliders: {fileID: 4238004132617915739}
   Origin: {fileID: 6650157846048979657}
 --- !u!114 &4238004132617915739
@@ -304,7 +304,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LayerMask:
     serializedVersion: 2
-    m_Bits: 576
+    m_Bits: 64
   GetColliders: {fileID: 7395712742569783572}
   Origin: {fileID: 6650157846048979657}
 --- !u!114 &7395712742569783572
@@ -385,7 +385,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LayerMask:
     serializedVersion: 2
-    m_Bits: 576
+    m_Bits: 64
   GetColliders: {fileID: 226650889998733153}
   Origin: {fileID: 6650157846048979657}
 --- !u!114 &226650889998733153

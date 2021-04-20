@@ -47,7 +47,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LayerMask:
     serializedVersion: 2
-    m_Bits: 576
+    m_Bits: 64
   GetColliders: {fileID: 940392228321620595}
   Origin: {fileID: 2832666184335063574}
 --- !u!114 &940392228321620595
@@ -154,7 +154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LayerMask:
     serializedVersion: 2
-    m_Bits: 576
+    m_Bits: 64
   GetColliders: {fileID: 764509148094400376}
   Origin: {fileID: 2832666184335063574}
 --- !u!114 &764509148094400376
@@ -235,7 +235,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LayerMask:
     serializedVersion: 2
-    m_Bits: 640
+    m_Bits: 128
   GetColliders: {fileID: 6314855464515524138}
   Origin: {fileID: 2832666184335063574}
 --- !u!114 &6314855464515524138
@@ -368,6 +368,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5310419143492617666, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
+      propertyPath: Force.x
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5310419143492617666, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
+      propertyPath: Force.y
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5310419143492617667, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
+      propertyPath: Type
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5310419143492617669, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
       propertyPath: m_Size.x
       value: 2
@@ -384,6 +396,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spider Enemy Character Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 5363386333483869276, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
+      propertyPath: Size.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5363386333483869276, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
+      propertyPath: Size.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5363386333483869276, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
+      propertyPath: Offset.x
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5363386333483869276, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
+      propertyPath: Offset.y
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5389467025999301055, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
       propertyPath: MinVelocityY
       value: -5
@@ -395,6 +423,30 @@ PrefabInstance:
     - target: {fileID: 5991360031585126945, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 6120551109650374578, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
+      propertyPath: Offset.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6170756134438667449, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
+      propertyPath: Offset.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6204537037218096957, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
+      propertyPath: Size.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6204537037218096957, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
+      propertyPath: Size.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6204537037218096957, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
+      propertyPath: Offset.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6204537037218096957, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
+      propertyPath: Offset.y
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 6576585551212030792, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
       propertyPath: m_LocalPosition.x

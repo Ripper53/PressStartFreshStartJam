@@ -60,6 +60,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Character: {fileID: 2812419680438531243}
+--- !u!114 &1772786473578650997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2812419680438531216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c187e1c8796b6740a4596e4527b5535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7912491800933961211
 GameObject:
   m_ObjectHideFlags: 0
@@ -107,7 +119,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LayerMask:
     serializedVersion: 2
-    m_Bits: 192
+    m_Bits: 64
   GetColliders: {fileID: 3338172643200922033}
   Origin: {fileID: 2812419680438531246}
 --- !u!114 &3338172643200922033
