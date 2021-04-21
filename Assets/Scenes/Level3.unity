@@ -2180,7 +2180,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 747409265804628774, guid: fb0107938b91d5943841c70e21b20c08, type: 3}
       propertyPath: SceneName
-      value: Level1
+      value: BuddhaBoss
       objectReference: {fileID: 0}
     - target: {fileID: 747409265804628828, guid: fb0107938b91d5943841c70e21b20c08, type: 3}
       propertyPath: m_Name
