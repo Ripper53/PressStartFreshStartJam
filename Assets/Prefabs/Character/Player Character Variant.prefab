@@ -13,6 +13,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CharacterWhip: {fileID: 3553162208157077478}
+--- !u!114 &1772786473578650997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2812419680438531216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c187e1c8796b6740a4596e4527b5535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1873002979521918737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2812419680438531216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d062119f16aa2a54794b307bc718970e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GameObject: {fileID: 2812419680438531216}
+  CharacterDeath: {fileID: 5493449917974751554}
+  Transform: {fileID: 2812419680438531246}
 --- !u!114 &3553162208157077478
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60,7 +87,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Character: {fileID: 2812419680438531243}
---- !u!114 &1772786473578650997
+--- !u!114 &6038047217091573886
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -69,9 +96,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2812419680438531216}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c187e1c8796b6740a4596e4527b5535, type: 3}
+  m_Script: {fileID: 11500000, guid: 57ec68f5fc7ebb2418c1f994266410ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Prefab: {fileID: 8053947086268995239, guid: 9ec14eecfe16ee24a906806e939cee47, type: 3}
 --- !u!1 &7912491800933961211
 GameObject:
   m_ObjectHideFlags: 0
@@ -82,8 +110,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1623483600685818267}
   - component: {fileID: 9104316739114164378}
-  - component: {fileID: 3338172643200922033}
-  - component: {fileID: 930066485114235573}
+  - component: {fileID: 7949258066594093572}
+  - component: {fileID: 9163926069452201638}
   m_Layer: 0
   m_Name: WhipHit
   m_TagString: Untagged
@@ -120,9 +148,9 @@ MonoBehaviour:
   LayerMask:
     serializedVersion: 2
     m_Bits: 64
-  GetColliders: {fileID: 3338172643200922033}
+  GetColliders: {fileID: 7949258066594093572}
   Origin: {fileID: 2812419680438531246}
---- !u!114 &3338172643200922033
+--- !u!114 &7949258066594093572
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -131,14 +159,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 7912491800933961211}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 88bf86eb4bebdd44d8aab50aeab71a2d, type: 3}
+  m_Script: {fileID: 11500000, guid: addf95d771e64c04e903aa7a35b88cd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   LayerMask:
     serializedVersion: 2
     m_Bits: 128
-  BoxParameter: {fileID: 930066485114235573}
---- !u!114 &930066485114235573
+  CircleParameter: {fileID: 9163926069452201638}
+--- !u!114 &9163926069452201638
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -147,12 +175,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 7912491800933961211}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 025087dd71e4fc04ba01b869d00b7656, type: 3}
+  m_Script: {fileID: 11500000, guid: 38d8e0e829dcee84d98e4751711875e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Transform: {fileID: 1623483600685818267}
-  Offset: {x: 1.5, y: 0.25}
-  Size: {x: 3, y: 1.5}
+  Offset: {x: 1.5, y: 0.5}
+  Radius: 1.5
 --- !u!1001 &3929218114672803641
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -280,6 +308,10 @@ PrefabInstance:
       propertyPath: DeadBody
       value: 
       objectReference: {fileID: 11400000, guid: bfdf846fb9e3a9a43a0ebab58917dd12, type: 2}
+    - target: {fileID: 8843878445995955835, guid: ed67409589df6a34eb8d0ae62d7968dc, type: 3}
+      propertyPath: characterDeadBodyPooler
+      value: 
+      objectReference: {fileID: 6038047217091573886}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed67409589df6a34eb8d0ae62d7968dc, type: 3}
 --- !u!1 &2812419680438531216 stripped
@@ -301,6 +333,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 79d8ed8ca16f57a43921addb957d1a33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5493449917974751554 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8843878445995955835, guid: ed67409589df6a34eb8d0ae62d7968dc, type: 3}
+  m_PrefabInstance: {fileID: 3929218114672803641}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2812419680438531216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b070765fc8f2c84b93d97a87f26e942, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!212 &2812419679164357652 stripped

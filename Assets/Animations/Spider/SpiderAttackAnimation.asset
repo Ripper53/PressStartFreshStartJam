@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Loop: 0
   frames:
-  - Interval: 0.1
+  - Interval: 0.4
     sprite: {fileID: 21300000, guid: 4ee7f86c34bae39458f6060d2f9607db, type: 3}
   - Interval: 0.1
     sprite: {fileID: 21300000, guid: 184756244eb44d84d9408155e9ef218d, type: 3}

@@ -4,7 +4,8 @@ using Platformer2DStarterKit.Utility;
 using Platformer2DStarterKit.AI;
 
 [System.Serializable]
-public class AttackAIAction : IAIAction, IAIAction.IConditional, IAIAction.IStartable {
+public class AttackAIAction : IAIAction, IAIAction.IConditional, IAIAction.IStartable, IAIAction.ICancelable {
+    public CharacterAnimator CharacterAnimator;
     public SpriteAnimationBase AttackAnimation;
     public float AttackTime;
 
@@ -18,25 +19,30 @@ public class AttackAIAction : IAIAction, IAIAction.IConditional, IAIAction.IStar
         if (token.Source.Animator.CurrentSpriteAnimation != AttackAnimation) {
             return AttackCheck.Evaluate();
         } else {
-            return attackTimer.Execute(Time.fixedDeltaTime) || !token.Source.Animator.IsFinished;
+            return !token.Source.Animator.IsFinished;
         }
     }
 
+    private bool toAttack;
     public void Start(IAIAction.IStartable.Token token) {
+        CharacterAnimator.enabled = false;
+        toAttack = true;
         token.Source.Animator.SetAnimation(AttackAnimation);
         attackTimer.SetTime(AttackTime);
     }
 
+    public void Cancel(IAIAction.ICancelable.Token token) {
+        CharacterAnimator.enabled = true;
+    }
+
     public bool Execute(AIActionList.Token token) {
-        if (AttackGetColliders.Get(out Collider2D col)) {
-            float dir = col.transform.position.x - token.Source.Rigidbody.position.x;
-            if (dir > 0f) {
-                token.Source.SpriteRenderer.flipX = false;
-                AttackGetColliders.ShapeParameter.Offset.x = AttackOffsetX;
-            } else {
-                token.Source.SpriteRenderer.flipX = true;
-                AttackGetColliders.ShapeParameter.Offset.x = -AttackOffsetX;
-            }
+        if (token.Source.SpriteRenderer.flipX) {
+            AttackGetColliders.ShapeParameter.Offset.x = -AttackOffsetX;
+        } else {
+            AttackGetColliders.ShapeParameter.Offset.x = AttackOffsetX;
+        }
+        if (toAttack && !attackTimer.Execute(Time.fixedDeltaTime)) {
+            toAttack = false;
             CharacterDeath.Kill(AttackGetColliders);
         }
         return true;

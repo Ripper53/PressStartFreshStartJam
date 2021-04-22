@@ -9835,10 +9835,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1556145195003373931, guid: 96afd3c77ae52e14385bc10c5b2f940b, type: 3}
-      propertyPath: AttackAIAction.AttackTime
-      value: 50
-      objectReference: {fileID: 0}
     - target: {fileID: 2832666182392124076, guid: 96afd3c77ae52e14385bc10c5b2f940b, type: 3}
       propertyPath: m_FlipX
       value: 1
@@ -23141,11 +23137,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2312663524071051094, guid: 95c96ed9baa404f49983ebf8bafc9834, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 120.17
-      objectReference: {fileID: 0}
-    - target: {fileID: 2312663524071051094, guid: 95c96ed9baa404f49983ebf8bafc9834, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -7.63
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6784821782195495877, guid: 95c96ed9baa404f49983ebf8bafc9834, type: 3}
       propertyPath: m_RootOrder

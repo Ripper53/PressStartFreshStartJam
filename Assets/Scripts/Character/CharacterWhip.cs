@@ -19,13 +19,20 @@ public class CharacterWhip : MonoBehaviour {
     public bool WhipRequest = false;
     private bool toHit = false;
 
+    private void OnDisable() {
+        WhipRequest = false;
+        toHit = false;
+        hitTimer = 0f;
+        SetValue(true);
+    }
+
     private void FixedUpdate() {
         if (hitTimer > 0f) {
             hitTimer -= Time.fixedDeltaTime;
         } else {
             if (toHit) {
-                CharacterDeath.Kill(HitGetColliders);
                 toHit = false;
+                CharacterDeath.Kill(HitGetColliders);
             }
             if (Animator.CurrentSpriteAnimation == WhipAnimation) {
                 if (Animator.IsFinished) {

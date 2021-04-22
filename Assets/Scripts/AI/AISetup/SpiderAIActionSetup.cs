@@ -4,6 +4,7 @@ public class SpiderAIActionSetup : AIActionSetup {
     public AttackAIAction AttackAIAction;
     public SpiderAIAction SpiderAIAction;
     public CharacterInputFollowAIAction CharacterInputFollowAIAction;
+    public SetAnimationAIAction SetAnimationAIAction;
 
     protected override void Setup(ICharacter character) {
         character.ActionList.ClearActions();
@@ -18,6 +19,7 @@ public class SpiderAIActionSetup : AIActionSetup {
         character.ActionList.AddAction(AttackAIAction);
         character.ActionList.AddAction(SpiderAIAction);
         character.ActionList.AddAction(CharacterInputFollowAIAction);
+        character.ActionList.AddAction(SetAnimationAIAction);
     }
 
 }

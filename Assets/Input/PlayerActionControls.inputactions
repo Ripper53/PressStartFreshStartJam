@@ -27,6 +27,44 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "Interface",
+            "id": "0b919de2-e497-49c8-ba5f-fe527ee195cc",
+            "actions": [
+                {
+                    "name": "Pause",
+                    "type": "Button",
+                    "id": "524e3674-a32f-44fa-9b1b-780bca2d9be8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "facad160-fe13-4fa1-a020-ff82d65fea12",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "53e5196c-b2e2-44f0-bed9-e4c55c04e7cd",
+                    "path": "<Keyboard>/p",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": [

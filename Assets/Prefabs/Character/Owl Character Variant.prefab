@@ -25,8 +25,9 @@ MonoBehaviour:
       PauseTime: 0.5
       ActionTime: 4
   AttackAIAction:
+    CharacterAnimator: {fileID: 3196246899395439837}
     AttackAnimation: {fileID: 11400000, guid: f8b36b0b8d8d1234db497aaefeac5503, type: 2}
-    AttackTime: 0.2
+    AttackTime: 0.4
     AttackCheck: {fileID: 2242489727894196823}
     AttackGetColliders: {fileID: 7585938823896598142}
     AttackOffsetX: 0.25
@@ -78,7 +79,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LayerMask:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 1088
   BoxParameter: {fileID: 5112789860252473852}
 --- !u!114 &5112789860252473852
 MonoBehaviour:
@@ -142,7 +143,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LayerMask:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 1088
   GetColliders: {fileID: 4364191876207553741}
   Origin: {fileID: 6650157846048979657}
 --- !u!114 &4364191876207553741
@@ -223,7 +224,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LayerMask:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 1088
   GetColliders: {fileID: 4238004132617915739}
   Origin: {fileID: 6650157846048979657}
 --- !u!114 &4238004132617915739
@@ -304,7 +305,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LayerMask:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 1088
   GetColliders: {fileID: 7395712742569783572}
   Origin: {fileID: 6650157846048979657}
 --- !u!114 &7395712742569783572
@@ -385,7 +386,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LayerMask:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 1088
   GetColliders: {fileID: 226650889998733153}
   Origin: {fileID: 6650157846048979657}
 --- !u!114 &226650889998733153

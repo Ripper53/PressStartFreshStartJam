@@ -33,7 +33,7 @@ SpriteAtlas:
     packables:
     - {fileID: 102900000, guid: e34b8b7a4b646854994fdb23e5cb9ca7, type: 3}
     - {fileID: 102900000, guid: 0bac890dafb4f214cae33bc509c23496, type: 3}
-    totalSpriteSurfaceArea: 60024
+    totalSpriteSurfaceArea: 77856
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -48,6 +48,7 @@ SpriteAtlas:
   - {fileID: 2142933594793787071, guid: 46344e90e414d2941916b11c6bee3ec2, type: 3}
   - {fileID: 21300000, guid: 212fd0d0df109454b9b29f16bbf3f710, type: 3}
   - {fileID: 21300000, guid: e078c7d0d237b554480e1c4f0bb041ac, type: 3}
+  - {fileID: 21300000, guid: ce92a0010fb2be74bb8fbce1c17e35ab, type: 3}
   - {fileID: 21300000, guid: d2e43151cb781d3408d56e0751450f73, type: 3}
   - {fileID: 21300000, guid: 6a114361fda72314dbb0033a66c1dee7, type: 3}
   - {fileID: 21300000, guid: e979b0717f807d5479310dd470896065, type: 3}
@@ -56,9 +57,11 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 7bbdea124cb9735448cecbbcf167ac78, type: 3}
   - {fileID: 21300000, guid: 03131122c0ac4ff4ebc9373b70148d12, type: 3}
   - {fileID: 21300000, guid: 70bd84a2de62b2244abd50c706597770, type: 3}
+  - {fileID: 21300000, guid: 8f2ea9c28c1604143bf5923e6139caad, type: 3}
   - {fileID: 21300000, guid: 315eaec2023da934cb830826f475f68f, type: 3}
   - {fileID: 21300000, guid: 95e887034d8c6f3438719ad76dc676ae, type: 3}
   - {fileID: 21300000, guid: 9423973319a877946b4df00fabe51a49, type: 3}
+  - {fileID: 21300000, guid: 4273336335cd3894296236a04b7dd8fc, type: 3}
   - {fileID: 21300000, guid: 58f76c6342055b344913db7a45df92ba, type: 3}
   - {fileID: 21300000, guid: 029bd773dea43bc4894688c049d994b5, type: 3}
   - {fileID: 21300000, guid: 872b7fd3a096e3e419dea6887dfed46d, type: 3}
@@ -68,18 +71,23 @@ SpriteAtlas:
   - {fileID: 21300000, guid: ce96c325183ead74fb04362149530971, type: 3}
   - {fileID: 21300000, guid: 2d34bd454dafc87428fc9e8da2215c9b, type: 3}
   - {fileID: 21300000, guid: bd5d3c5549a1c1547a48791eaf023922, type: 3}
+  - {fileID: 21300000, guid: fb5993f5681b9d141a294f0ee9445f55, type: 3}
   - {fileID: 21300000, guid: 01e050664517c0d408bcfa7c31c171d7, type: 3}
   - {fileID: 21300000, guid: 42f2e066da576454485a4d68267f3053, type: 3}
   - {fileID: 21300000, guid: 4ed4d6762f268054894305d83441e2a6, type: 3}
+  - {fileID: 21300000, guid: c638b9b62b043c248917ffb2de329f34, type: 3}
   - {fileID: 21300000, guid: 4a860df6a8f3b754d84b028159174c39, type: 3}
   - {fileID: 21300000, guid: 58d784573a276e4488ec3bdaa29f3cac, type: 3}
   - {fileID: 21300000, guid: adb62a8776d35b541a3a7e2a2d36d102, type: 3}
   - {fileID: 21300000, guid: 5b7dda185b17ddb4b8baf28a8479e25b, type: 3}
   - {fileID: 21300000, guid: b512d348e04d2fb418cbe3faf35ad612, type: 3}
   - {fileID: 21300000, guid: d0bddf781a2f51b4f8a900b5bf2d4dcb, type: 3}
+  - {fileID: 21300000, guid: 14e281980879dfb4d908c5551fb0a931, type: 3}
   - {fileID: 21300000, guid: 053f66c887ad01546a101d19bd892eb2, type: 3}
   - {fileID: 21300000, guid: f1672eb9fa388fc43b310cc52ca4685b, type: 3}
   - {fileID: 21300000, guid: d8b9feb9f84e31d45baec420d315afdb, type: 3}
+  - {fileID: 21300000, guid: d5cd25d904651db4185e7d6211451ac0, type: 3}
+  - {fileID: 21300000, guid: 3c92a14aec840ce49af93f88df3d3add, type: 3}
   - {fileID: 21300000, guid: 74ca464ad3d91aa41a3f6d4013c85c39, type: 3}
   - {fileID: 21300000, guid: 34e4df4a246b9cb47b386fd222a97494, type: 3}
   - {fileID: 21300000, guid: 59cd925ac7b22fd4ab75c735109cf919, type: 3}
@@ -93,9 +101,11 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 87976b0b21451874789c553579e2f0fe, type: 3}
   - {fileID: 21300000, guid: ff48b44bf5bf09a4bba9de58ff7cafe2, type: 3}
   - {fileID: 21300000, guid: ca0f495b9c0cd1542b64bc253fd1c7c5, type: 3}
+  - {fileID: 21300000, guid: eea6fe9b6089bf1409eb9b3b337316af, type: 3}
   - {fileID: 21300000, guid: 076061bb551340e44bd9ec9e7219bbb4, type: 3}
   - {fileID: 21300000, guid: e87e96db4a9dfa7438c85b34b989b286, type: 3}
   - {fileID: 21300000, guid: d9a166eb514f3304e882cd4e8dc8fda3, type: 3}
+  - {fileID: 21300000, guid: 83df3aeb55ec11a46906c3841962d2b0, type: 3}
   - {fileID: 21300000, guid: a7ccbd5cfcff1e7418ac7a55860c68e4, type: 3}
   - {fileID: 21300000, guid: 4ee7f86c34bae39458f6060d2f9607db, type: 3}
   - {fileID: 21300000, guid: e139df6cb362fc24282d38377867a4f6, type: 3}
@@ -107,7 +117,9 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 050b0c0ec3238b64bb956c1d4a7316d4, type: 3}
   - {fileID: 21300000, guid: 2e0d611e870539b44a9974098021ad96, type: 3}
   - {fileID: 21300000, guid: a4138aae78a00354cb91264da558ee23, type: 3}
+  - {fileID: 21300000, guid: 873e635f03bd31b4cb61d4b7345fd126, type: 3}
   - {fileID: 21300000, guid: a6b3ac7f72ae6be4cbe8c995231b3da2, type: 3}
+  - {fileID: 21300000, guid: 9b9b0fafa914c6f4c9e03e163a2ae04a, type: 3}
   - {fileID: 21300000, guid: 419beeef4ee97bd419416a7a1e52eb9e, type: 3}
   m_PackedSpriteNamesToIndex:
   - Cat_Walk0
@@ -119,6 +131,7 @@ SpriteAtlas:
   - DirtGround_Edge
   - Buddha_Laser0
   - LaserRiver2
+  - BuddhaHead_Death2
   - LaserRiver5
   - GreenPillar
   - TileShadowEdgeStandalone
@@ -127,9 +140,11 @@ SpriteAtlas:
   - Owl_Walk0
   - Cat_Idle
   - Explorer_Whip4
+  - BuddhaHead_Walk0
   - Buddha_Shoulders
   - TileShadow
   - CaveEntranceBack
+  - BuddhaHead_Idle
   - Explorer_Whip8
   - Cat_DeadBody
   - Whip
@@ -139,18 +154,23 @@ SpriteAtlas:
   - TileShadowEdgeConnect
   - LaserRiver4
   - LaserRiver1
+  - Buddha_Inverted_Shoulders
   - Explorer_Whip1
   - Explorer_Whip9
   - Owl_DeadBody
+  - Spawn1
   - Spider_Death2
   - Owl_Flying1
   - Spider_Walk1
   - Spider_Idle
   - RockBackground
   - Box
+  - Platform
   - Explorer_Whip5
   - Owl_Statue
   - Explorer_Whip7
+  - Spawn0
+  - BuddhaHead_Walk1
   - Owl_Attack2
   - Explorer_Walk1
   - LaserRiver6
@@ -164,9 +184,11 @@ SpriteAtlas:
   - Explorer_Whip0
   - Cat_Statue
   - TileShadowEdge
+  - BuddhaHead_Death1
   - Explorer_Idle
   - Pillar
   - LaserRiver3
+  - Buddha__Inverted_Arm
   - Owl_Idle
   - Spider_Attack0
   - Explorer_Walk0
@@ -178,7 +200,9 @@ SpriteAtlas:
   - GrassBox
   - Owl_Flying0
   - Explorer_Death1
+  - BuddhaHead_Death0
   - Owl_Flying2
+  - Buddha_Inverted
   - Spider_Walk0
   m_RenderDataMap: {}
   m_Tag: MainAtlas

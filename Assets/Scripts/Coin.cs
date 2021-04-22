@@ -7,6 +7,10 @@ public class Coin : MonoBehaviour {
     public Check Check;
     public OneShotAudioEffectPooler OneShotAudioEffectPooler;
 
+    private void Awake() {
+        PlayerStatistics.AddMaxCoin();
+    }
+
     private void FixedUpdate() {
         if (!Check.Evaluate()) return;
         gameObject.SetActive(false);

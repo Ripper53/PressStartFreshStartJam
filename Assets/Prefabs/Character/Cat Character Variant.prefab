@@ -47,7 +47,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LayerMask:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 1088
   GetColliders: {fileID: 5744862240923038174}
   Origin: {fileID: 5337935811528919}
 --- !u!114 &5744862240923038174
@@ -128,7 +128,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LayerMask:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 1088
   GetColliders: {fileID: 2530022525780373966}
   Origin: {fileID: 5337935811528919}
 --- !u!114 &2530022525780373966
@@ -175,8 +175,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackAIAction:
+    CharacterAnimator: {fileID: 8071492999882694339}
     AttackAnimation: {fileID: 11400000, guid: f8b36b0b8d8d1234db497aaefeac5503, type: 2}
-    AttackTime: 0.2
+    AttackTime: 0.4
     AttackCheck: {fileID: 9040004186449002477}
     AttackGetColliders: {fileID: 8152063572959672978}
     AttackOffsetX: 0.125
@@ -232,7 +233,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LayerMask:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 1088
   GetColliders: {fileID: 2085840202565442155}
   Origin: {fileID: 5337935811528919}
 --- !u!114 &2085840202565442155
@@ -405,3 +406,14 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5310419143492617665, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
   m_PrefabInstance: {fileID: 5305399516553186582}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &8071492999882694339 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4153203818049426389, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
+  m_PrefabInstance: {fileID: 5305399516553186582}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fae7f30d4afe4e4287cf45d5313e86d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

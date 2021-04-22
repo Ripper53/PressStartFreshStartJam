@@ -2,10 +2,13 @@ using UnityEngine;
 using Platformer2DStarterKit.AI;
 
 public class BuddhaAIActionSetup : AIActionSetup {
+    public BuddhaScene BuddhaScene;
     public SpriteRenderer LaserPrefab;
     public BuddhaAIAction BuddhaAIAction;
 
     protected override void Setup(ICharacter character) {
+        BuddhaScene.BuddhaAIAction = BuddhaAIAction;
+
         character.ActionList.ClearActions();
 
         InitializeHand(BuddhaAIAction.RightHand);
@@ -15,11 +18,12 @@ public class BuddhaAIActionSetup : AIActionSetup {
     }
 
     private void InitializeHand(BuddhaAIAction.Hand hand) {
-        SpriteRenderer rightLaser = Instantiate(LaserPrefab);
+        SpriteRenderer laser = Instantiate(LaserPrefab);
+        laser.GetComponent<AudioSource>().pitch = Random.Range(0.9f, 1.1f);
         hand.Action = BuddhaAIAction;
-        hand.LaserGameObject = rightLaser.gameObject;
-        hand.LaserTransform = rightLaser.transform;
-        hand.LaserSpriteRenderer = rightLaser;
+        hand.LaserGameObject = laser.gameObject;
+        hand.LaserTransform = laser.transform;
+        hand.LaserSpriteRenderer = laser;
     }
 
 }

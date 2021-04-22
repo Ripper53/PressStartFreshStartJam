@@ -4993,11 +4993,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6442788954146506204, guid: 2e8272b8f06b3e744bc137250df86324, type: 3}
       propertyPath: LayerMask.m_Bits
-      value: 64
+      value: 1088
       objectReference: {fileID: 0}
     - target: {fileID: 7583532902764079913, guid: 2e8272b8f06b3e744bc137250df86324, type: 3}
       propertyPath: LayerMask.m_Bits
-      value: 64
+      value: 1088
       objectReference: {fileID: 0}
     - target: {fileID: 7583532902805162778, guid: 2e8272b8f06b3e744bc137250df86324, type: 3}
       propertyPath: m_Name
@@ -5053,7 +5053,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8177639763431299883, guid: 2e8272b8f06b3e744bc137250df86324, type: 3}
       propertyPath: LayerMask.m_Bits
-      value: 64
+      value: 1088
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e8272b8f06b3e744bc137250df86324, type: 3}

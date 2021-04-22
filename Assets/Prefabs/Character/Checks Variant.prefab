@@ -9,11 +9,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 668465698743727570, guid: cb511903b8d0225488bfc32a089a359f, type: 3}
       propertyPath: LayerMask.m_Bits
-      value: 64
+      value: 1088
       objectReference: {fileID: 0}
     - target: {fileID: 723528946046710104, guid: cb511903b8d0225488bfc32a089a359f, type: 3}
       propertyPath: LayerMask.m_Bits
-      value: 64
+      value: 1088
       objectReference: {fileID: 0}
     - target: {fileID: 1544892302586738075, guid: cb511903b8d0225488bfc32a089a359f, type: 3}
       propertyPath: m_Name
@@ -21,39 +21,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1878585130267258306, guid: cb511903b8d0225488bfc32a089a359f, type: 3}
       propertyPath: LayerMask.m_Bits
-      value: 64
+      value: 1088
       objectReference: {fileID: 0}
     - target: {fileID: 2271794955207038078, guid: cb511903b8d0225488bfc32a089a359f, type: 3}
       propertyPath: LayerMask.m_Bits
-      value: 64
+      value: 1088
       objectReference: {fileID: 0}
     - target: {fileID: 3007413145041788326, guid: cb511903b8d0225488bfc32a089a359f, type: 3}
       propertyPath: LayerMask.m_Bits
-      value: 64
+      value: 1088
       objectReference: {fileID: 0}
     - target: {fileID: 4315792070463739473, guid: cb511903b8d0225488bfc32a089a359f, type: 3}
       propertyPath: LayerMask.m_Bits
-      value: 64
+      value: 1088
       objectReference: {fileID: 0}
     - target: {fileID: 4447325537164175272, guid: cb511903b8d0225488bfc32a089a359f, type: 3}
       propertyPath: LayerMask.m_Bits
-      value: 64
+      value: 1088
       objectReference: {fileID: 0}
     - target: {fileID: 4782315529117440803, guid: cb511903b8d0225488bfc32a089a359f, type: 3}
       propertyPath: LayerMask.m_Bits
-      value: 64
+      value: 1088
       objectReference: {fileID: 0}
     - target: {fileID: 5222543426092436139, guid: cb511903b8d0225488bfc32a089a359f, type: 3}
       propertyPath: LayerMask.m_Bits
-      value: 64
+      value: 1088
       objectReference: {fileID: 0}
     - target: {fileID: 5924454808162019998, guid: cb511903b8d0225488bfc32a089a359f, type: 3}
       propertyPath: LayerMask.m_Bits
-      value: 64
+      value: 1088
       objectReference: {fileID: 0}
     - target: {fileID: 7270056755966404585, guid: cb511903b8d0225488bfc32a089a359f, type: 3}
       propertyPath: LayerMask.m_Bits
-      value: 64
+      value: 1088
       objectReference: {fileID: 0}
     - target: {fileID: 7304578405022481034, guid: cb511903b8d0225488bfc32a089a359f, type: 3}
       propertyPath: m_RootOrder
@@ -101,15 +101,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7854302532432572094, guid: cb511903b8d0225488bfc32a089a359f, type: 3}
       propertyPath: LayerMask.m_Bits
-      value: 64
+      value: 1088
       objectReference: {fileID: 0}
     - target: {fileID: 7988852446259242382, guid: cb511903b8d0225488bfc32a089a359f, type: 3}
       propertyPath: LayerMask.m_Bits
-      value: 64
+      value: 1088
       objectReference: {fileID: 0}
     - target: {fileID: 8558771471175936277, guid: cb511903b8d0225488bfc32a089a359f, type: 3}
       propertyPath: LayerMask.m_Bits
-      value: 64
+      value: 1088
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb511903b8d0225488bfc32a089a359f, type: 3}

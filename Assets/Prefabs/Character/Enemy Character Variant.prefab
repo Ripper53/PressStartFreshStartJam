@@ -27,6 +27,7 @@ MonoBehaviour:
   CharacterMovement: {fileID: 5310419143492617667}
   CharacterStun: {fileID: 409310690326928820}
   Jump: {fileID: 5310419143492617666}
+  Death: {fileID: 2488653616623933485}
   MovementExecution: {fileID: 8052381586169846937}
   Speed: {fileID: 2490690621535761595}
   poolerRepository: {fileID: 0}
@@ -249,6 +250,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b1ceeb2d66b5a57469a4aa8589d60490, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2488653616623933485 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8843878445995955835, guid: ed67409589df6a34eb8d0ae62d7968dc, type: 3}
+  m_PrefabInstance: {fileID: 6355350732095278678}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5310419143492617727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b070765fc8f2c84b93d97a87f26e942, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!212 &5310419143294201211 stripped

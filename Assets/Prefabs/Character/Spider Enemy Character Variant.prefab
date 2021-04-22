@@ -47,7 +47,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LayerMask:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 1088
   GetColliders: {fileID: 940392228321620595}
   Origin: {fileID: 2832666184335063574}
 --- !u!114 &940392228321620595
@@ -94,8 +94,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackAIAction:
+    CharacterAnimator: {fileID: 6295720222215334914}
     AttackAnimation: {fileID: 11400000, guid: 3103f9f729c52f142a716f1a902e0e8f, type: 2}
-    AttackTime: 0.1
+    AttackTime: 0.4
     AttackCheck: {fileID: 111262594878607482}
     AttackGetColliders: {fileID: 1526867308555293606}
     AttackOffsetX: 0.75
@@ -107,6 +108,8 @@ MonoBehaviour:
   CharacterInputFollowAIAction:
     GetColliders: {fileID: 6024211615071610030}
     FollowOffset: 0.5
+  SetAnimationAIAction:
+    Animation: {fileID: 11400000, guid: e86415909dadd9043ad420299a72c4bd, type: 2}
 --- !u!1 &8393952567151945352
 GameObject:
   m_ObjectHideFlags: 0
@@ -154,7 +157,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LayerMask:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 1088
   GetColliders: {fileID: 764509148094400376}
   Origin: {fileID: 2832666184335063574}
 --- !u!114 &764509148094400376
@@ -235,7 +238,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LayerMask:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 1088
   GetColliders: {fileID: 6314855464515524138}
   Origin: {fileID: 2832666184335063574}
 --- !u!114 &6314855464515524138
@@ -492,3 +495,14 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5310419143492617665, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
   m_PrefabInstance: {fileID: 7997760657632182231}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &6295720222215334914 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4153203818049426389, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
+  m_PrefabInstance: {fileID: 7997760657632182231}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fae7f30d4afe4e4287cf45d5313e86d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

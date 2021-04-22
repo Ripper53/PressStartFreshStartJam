@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: ExplorerDeadBody
   m_EditorClassIdentifier: 
   Animation: {fileID: 11400000, guid: 99e41f98ba8db8d4aab99606424ee161, type: 2}
+  AudioClip: {fileID: 8300000, guid: 268bdabf6d208fe4ba1b6b0a0b211638, type: 3}
   ColliderOffset: {x: 0, y: -0.0375}
   ColliderSize: {x: 0.4375, y: 0.7375}
