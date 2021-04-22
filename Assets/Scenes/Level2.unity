@@ -1274,6 +1274,14 @@ PrefabInstance:
       propertyPath: m_FlipX
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3198523540740963406, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: OneShotAudioEffectPooler
+      value: 
+      objectReference: {fileID: 1063633256}
+    - target: {fileID: 5667489273986683426, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: PlayerStatistics
+      value: 
+      objectReference: {fileID: 1063633254}
     - target: {fileID: 7721959802744788283, guid: b359dfb4e00871243905aff2dad30471, type: 3}
       propertyPath: characterDeadBodyPooler
       value: 
@@ -7409,6 +7417,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1368560985559261244, guid: 4a3d0d31051e3cc45989b332ce543ab9, type: 3}
+      propertyPath: PlayerStatistics
+      value: 
+      objectReference: {fileID: 1063633254}
     - target: {fileID: 3994978775008093989, guid: 4a3d0d31051e3cc45989b332ce543ab9, type: 3}
       propertyPath: characterDeadBodyPooler
       value: 
@@ -7465,6 +7477,10 @@ PrefabInstance:
       propertyPath: m_FlipX
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8087230961125756496, guid: 4a3d0d31051e3cc45989b332ce543ab9, type: 3}
+      propertyPath: OneShotAudioEffectPooler
+      value: 
+      objectReference: {fileID: 1063633256}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a3d0d31051e3cc45989b332ce543ab9, type: 3}
 --- !u!1001 &792167762
@@ -7980,6 +7996,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1368560985559261244, guid: 4a3d0d31051e3cc45989b332ce543ab9, type: 3}
+      propertyPath: PlayerStatistics
+      value: 
+      objectReference: {fileID: 1063633254}
     - target: {fileID: 3994978775008093989, guid: 4a3d0d31051e3cc45989b332ce543ab9, type: 3}
       propertyPath: characterDeadBodyPooler
       value: 
@@ -8036,6 +8056,10 @@ PrefabInstance:
       propertyPath: m_FlipX
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8087230961125756496, guid: 4a3d0d31051e3cc45989b332ce543ab9, type: 3}
+      propertyPath: OneShotAudioEffectPooler
+      value: 
+      objectReference: {fileID: 1063633256}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a3d0d31051e3cc45989b332ce543ab9, type: 3}
 --- !u!1001 &881474851
@@ -8455,6 +8479,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Main
       objectReference: {fileID: 0}
+    - target: {fileID: 6784821783570085728, guid: 95c96ed9baa404f49983ebf8bafc9834, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95c96ed9baa404f49983ebf8bafc9834, type: 3}
 --- !u!114 &1063633253 stripped
@@ -8482,6 +8510,17 @@ MonoBehaviour:
 --- !u!114 &1063633255 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5157975844188997106, guid: 95c96ed9baa404f49983ebf8bafc9834, type: 3}
+  m_PrefabInstance: {fileID: 1063633252}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9778219d4733f34a9cfba078f11ee27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1063633256 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 857222626406941194, guid: 95c96ed9baa404f49983ebf8bafc9834, type: 3}
   m_PrefabInstance: {fileID: 1063633252}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
@@ -9058,6 +9097,14 @@ PrefabInstance:
       propertyPath: m_FlipX
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3198523540740963406, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: OneShotAudioEffectPooler
+      value: 
+      objectReference: {fileID: 1063633256}
+    - target: {fileID: 5667489273986683426, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: PlayerStatistics
+      value: 
+      objectReference: {fileID: 1063633254}
     - target: {fileID: 7721959802744788283, guid: b359dfb4e00871243905aff2dad30471, type: 3}
       propertyPath: characterDeadBodyPooler
       value: 
@@ -9437,6 +9484,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1368560985559261244, guid: 4a3d0d31051e3cc45989b332ce543ab9, type: 3}
+      propertyPath: PlayerStatistics
+      value: 
+      objectReference: {fileID: 1063633254}
     - target: {fileID: 3994978775008093989, guid: 4a3d0d31051e3cc45989b332ce543ab9, type: 3}
       propertyPath: characterDeadBodyPooler
       value: 
@@ -9493,6 +9544,10 @@ PrefabInstance:
       propertyPath: m_FlipX
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8087230961125756496, guid: 4a3d0d31051e3cc45989b332ce543ab9, type: 3}
+      propertyPath: OneShotAudioEffectPooler
+      value: 
+      objectReference: {fileID: 1063633256}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a3d0d31051e3cc45989b332ce543ab9, type: 3}
 --- !u!1001 &1381896076
@@ -11040,6 +11095,10 @@ PrefabInstance:
       propertyPath: SceneName
       value: Level3
       objectReference: {fileID: 0}
+    - target: {fileID: 747409265804628774, guid: fb0107938b91d5943841c70e21b20c08, type: 3}
+      propertyPath: PlayerStatistics
+      value: 
+      objectReference: {fileID: 1063633254}
     - target: {fileID: 747409265804628828, guid: fb0107938b91d5943841c70e21b20c08, type: 3}
       propertyPath: m_Name
       value: CaveEntranceToLevel
@@ -11311,6 +11370,14 @@ PrefabInstance:
       propertyPath: m_FlipX
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3198523540740963406, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: OneShotAudioEffectPooler
+      value: 
+      objectReference: {fileID: 1063633256}
+    - target: {fileID: 5667489273986683426, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: PlayerStatistics
+      value: 
+      objectReference: {fileID: 1063633254}
     - target: {fileID: 7721959802744788283, guid: b359dfb4e00871243905aff2dad30471, type: 3}
       propertyPath: characterDeadBodyPooler
       value: 
@@ -12489,6 +12556,14 @@ PrefabInstance:
       propertyPath: m_FlipX
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3198523540740963406, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: OneShotAudioEffectPooler
+      value: 
+      objectReference: {fileID: 1063633256}
+    - target: {fileID: 5667489273986683426, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: PlayerStatistics
+      value: 
+      objectReference: {fileID: 1063633254}
     - target: {fileID: 7721959802744788283, guid: b359dfb4e00871243905aff2dad30471, type: 3}
       propertyPath: characterDeadBodyPooler
       value: 

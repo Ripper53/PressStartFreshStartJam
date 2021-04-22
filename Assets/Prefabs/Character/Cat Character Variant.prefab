@@ -176,7 +176,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AttackAIAction:
     CharacterAnimator: {fileID: 8071492999882694339}
-    AttackAnimation: {fileID: 11400000, guid: f8b36b0b8d8d1234db497aaefeac5503, type: 2}
+    AttackAnimation: {fileID: 11400000, guid: 324d0b9914198344fa897889b2103fb7, type: 2}
     AttackTime: 0.4
     AttackCheck: {fileID: 9040004186449002477}
     AttackGetColliders: {fileID: 8152063572959672978}

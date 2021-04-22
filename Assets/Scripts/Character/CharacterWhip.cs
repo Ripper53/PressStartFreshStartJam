@@ -12,6 +12,8 @@ public class CharacterWhip : MonoBehaviour {
     public SpriteRenderer SpriteRenderer;
     public float HitOffsetX;
     public float HitTime;
+    [Header("Audio")]
+    public AudioSource AudioSource;
 
     private float hitTimer = 0f;
 
@@ -39,6 +41,7 @@ public class CharacterWhip : MonoBehaviour {
                     SetValue(true);
                 }
             } else if (WhipRequest) {
+                AudioSource.Play();
                 SetValue(false);
                 Animator.SetAnimation(WhipAnimation);
                 HitGetColliders.ShapeParameter.Offset.x = SpriteRenderer.flipX ? -HitOffsetX : HitOffsetX;

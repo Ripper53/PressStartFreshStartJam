@@ -24,14 +24,14 @@ public class AttackAIAction : IAIAction, IAIAction.IConditional, IAIAction.IStar
     }
 
     private bool toAttack;
-    public void Start(IAIAction.IStartable.Token token) {
+    public virtual void Start(IAIAction.IStartable.Token token) {
         CharacterAnimator.enabled = false;
         toAttack = true;
         token.Source.Animator.SetAnimation(AttackAnimation);
         attackTimer.SetTime(AttackTime);
     }
 
-    public void Cancel(IAIAction.ICancelable.Token token) {
+    public virtual void Cancel(IAIAction.ICancelable.Token token) {
         CharacterAnimator.enabled = true;
     }
 

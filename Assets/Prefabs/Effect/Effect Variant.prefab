@@ -56,8 +56,12 @@ PrefabInstance:
       value: Effect Variant
       objectReference: {fileID: 0}
     - target: {fileID: 8748815927361820323, guid: 86a8851834eea204c8edc7fc3ad7b097, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8748815927361820323, guid: 86a8851834eea204c8edc7fc3ad7b097, type: 3}
       propertyPath: m_SortingLayerID
-      value: 0
+      value: 1077576033
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86a8851834eea204c8edc7fc3ad7b097, type: 3}

@@ -33,7 +33,7 @@ SpriteAtlas:
     packables:
     - {fileID: 102900000, guid: e34b8b7a4b646854994fdb23e5cb9ca7, type: 3}
     - {fileID: 102900000, guid: 0bac890dafb4f214cae33bc509c23496, type: 3}
-    totalSpriteSurfaceArea: 77856
+    totalSpriteSurfaceArea: 82728
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -54,8 +54,10 @@ SpriteAtlas:
   - {fileID: 21300000, guid: e979b0717f807d5479310dd470896065, type: 3}
   - {fileID: 21300000, guid: 59a6c6716b865fc468886f887f8f14f2, type: 3}
   - {fileID: 21300000, guid: 02237581f1586044f9f7d4380e412a43, type: 3}
+  - {fileID: 21300000, guid: a1282cd121229a5489b5d8796523e085, type: 3}
   - {fileID: 21300000, guid: 7bbdea124cb9735448cecbbcf167ac78, type: 3}
   - {fileID: 21300000, guid: 03131122c0ac4ff4ebc9373b70148d12, type: 3}
+  - {fileID: 21300000, guid: 92efcd62cf2325747b0c5d94a284b274, type: 3}
   - {fileID: 21300000, guid: 70bd84a2de62b2244abd50c706597770, type: 3}
   - {fileID: 21300000, guid: 8f2ea9c28c1604143bf5923e6139caad, type: 3}
   - {fileID: 21300000, guid: 315eaec2023da934cb830826f475f68f, type: 3}
@@ -69,9 +71,11 @@ SpriteAtlas:
   - {fileID: 21300000, guid: f4dd1a241b2bdbb4d83d3cbbf2cef7b4, type: 3}
   - {fileID: 21300000, guid: 223a5c34cc84c4741818e35b3a78f5dc, type: 3}
   - {fileID: 21300000, guid: ce96c325183ead74fb04362149530971, type: 3}
+  - {fileID: 21300000, guid: 4f401b25ce9997d4fa9e0db67a6d1cb7, type: 3}
   - {fileID: 21300000, guid: 2d34bd454dafc87428fc9e8da2215c9b, type: 3}
   - {fileID: 21300000, guid: bd5d3c5549a1c1547a48791eaf023922, type: 3}
   - {fileID: 21300000, guid: fb5993f5681b9d141a294f0ee9445f55, type: 3}
+  - {fileID: 21300000, guid: 62a08d3601a25d14eb75a55a73754ff7, type: 3}
   - {fileID: 21300000, guid: 01e050664517c0d408bcfa7c31c171d7, type: 3}
   - {fileID: 21300000, guid: 42f2e066da576454485a4d68267f3053, type: 3}
   - {fileID: 21300000, guid: 4ed4d6762f268054894305d83441e2a6, type: 3}
@@ -106,6 +110,8 @@ SpriteAtlas:
   - {fileID: 21300000, guid: e87e96db4a9dfa7438c85b34b989b286, type: 3}
   - {fileID: 21300000, guid: d9a166eb514f3304e882cd4e8dc8fda3, type: 3}
   - {fileID: 21300000, guid: 83df3aeb55ec11a46906c3841962d2b0, type: 3}
+  - {fileID: 21300000, guid: 13ec734c8e322e24da9639290f0bc231, type: 3}
+  - {fileID: 21300000, guid: 27d5144cfd011e244aef7df82cd0628c, type: 3}
   - {fileID: 21300000, guid: a7ccbd5cfcff1e7418ac7a55860c68e4, type: 3}
   - {fileID: 21300000, guid: 4ee7f86c34bae39458f6060d2f9607db, type: 3}
   - {fileID: 21300000, guid: e139df6cb362fc24282d38377867a4f6, type: 3}
@@ -137,8 +143,10 @@ SpriteAtlas:
   - TileShadowEdgeStandalone
   - Cat_Walk1
   - Buddha_Arm
+  - BuddhaSpiderHead_Attack1
   - Owl_Walk0
   - Cat_Idle
+  - Cat_Attack1
   - Explorer_Whip4
   - BuddhaHead_Walk0
   - Buddha_Shoulders
@@ -152,9 +160,11 @@ SpriteAtlas:
   - Buddha_Laser1
   - Owl_Attack0
   - TileShadowEdgeConnect
+  - BuddhaSpiderHead_Attack0
   - LaserRiver4
   - LaserRiver1
   - Buddha_Inverted_Shoulders
+  - Cat_Attack2
   - Explorer_Whip1
   - Explorer_Whip9
   - Owl_DeadBody
@@ -189,6 +199,8 @@ SpriteAtlas:
   - Pillar
   - LaserRiver3
   - Buddha__Inverted_Arm
+  - BuddhaSpiderHead_Attack2
+  - Cat_Attack0
   - Owl_Idle
   - Spider_Attack0
   - Explorer_Walk0

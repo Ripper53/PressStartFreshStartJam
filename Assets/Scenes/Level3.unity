@@ -178,6 +178,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cat Character Variant (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 3198523540740963406, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: OneShotAudioEffectPooler
+      value: 
+      objectReference: {fileID: 2051761471}
+    - target: {fileID: 5667489273986683426, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: PlayerStatistics
+      value: 
+      objectReference: {fileID: 1032983062}
     - target: {fileID: 7721959802744788283, guid: b359dfb4e00871243905aff2dad30471, type: 3}
       propertyPath: characterDeadBodyPooler
       value: 
@@ -757,6 +765,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cat Character Variant (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 3198523540740963406, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: OneShotAudioEffectPooler
+      value: 
+      objectReference: {fileID: 2051761471}
+    - target: {fileID: 5667489273986683426, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: PlayerStatistics
+      value: 
+      objectReference: {fileID: 1032983062}
     - target: {fileID: 7721959802744788283, guid: b359dfb4e00871243905aff2dad30471, type: 3}
       propertyPath: characterDeadBodyPooler
       value: 
@@ -818,6 +834,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cat Character Variant (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 3198523540740963406, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: OneShotAudioEffectPooler
+      value: 
+      objectReference: {fileID: 2051761471}
+    - target: {fileID: 5667489273986683426, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: PlayerStatistics
+      value: 
+      objectReference: {fileID: 1032983062}
     - target: {fileID: 7721959802744788283, guid: b359dfb4e00871243905aff2dad30471, type: 3}
       propertyPath: characterDeadBodyPooler
       value: 
@@ -896,6 +920,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 810120198634524303, guid: 96afd3c77ae52e14385bc10c5b2f940b, type: 3}
+      propertyPath: OneShotAudioEffectPooler
+      value: 
+      objectReference: {fileID: 2051761471}
     - target: {fileID: 2832666182392124076, guid: 96afd3c77ae52e14385bc10c5b2f940b, type: 3}
       propertyPath: m_FlipX
       value: 1
@@ -952,6 +980,10 @@ PrefabInstance:
       propertyPath: characterDeadBodyPooler
       value: 
       objectReference: {fileID: 2091336246}
+    - target: {fileID: 7636881513891242211, guid: 96afd3c77ae52e14385bc10c5b2f940b, type: 3}
+      propertyPath: PlayerStatistics
+      value: 
+      objectReference: {fileID: 1032983062}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96afd3c77ae52e14385bc10c5b2f940b, type: 3}
 --- !u!1001 &118371103
@@ -1794,6 +1826,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1368560985559261244, guid: 4a3d0d31051e3cc45989b332ce543ab9, type: 3}
+      propertyPath: PlayerStatistics
+      value: 
+      objectReference: {fileID: 1032983062}
     - target: {fileID: 3994978775008093989, guid: 4a3d0d31051e3cc45989b332ce543ab9, type: 3}
       propertyPath: characterDeadBodyPooler
       value: 
@@ -1850,6 +1886,10 @@ PrefabInstance:
       propertyPath: m_FlipX
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8087230961125756496, guid: 4a3d0d31051e3cc45989b332ce543ab9, type: 3}
+      propertyPath: OneShotAudioEffectPooler
+      value: 
+      objectReference: {fileID: 2051761471}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a3d0d31051e3cc45989b332ce543ab9, type: 3}
 --- !u!1001 &285174626
@@ -1977,6 +2017,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cat Character Variant (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 3198523540740963406, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: OneShotAudioEffectPooler
+      value: 
+      objectReference: {fileID: 2051761471}
+    - target: {fileID: 5667489273986683426, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: PlayerStatistics
+      value: 
+      objectReference: {fileID: 1032983062}
     - target: {fileID: 7721959802744788283, guid: b359dfb4e00871243905aff2dad30471, type: 3}
       propertyPath: characterDeadBodyPooler
       value: 
@@ -2182,6 +2230,10 @@ PrefabInstance:
       propertyPath: SceneName
       value: BuddhaBoss
       objectReference: {fileID: 0}
+    - target: {fileID: 747409265804628774, guid: fb0107938b91d5943841c70e21b20c08, type: 3}
+      propertyPath: PlayerStatistics
+      value: 
+      objectReference: {fileID: 1032983062}
     - target: {fileID: 747409265804628828, guid: fb0107938b91d5943841c70e21b20c08, type: 3}
       propertyPath: m_Name
       value: CaveEntranceToLevel
@@ -2317,6 +2369,14 @@ PrefabInstance:
       propertyPath: m_FlipX
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3198523540740963406, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: OneShotAudioEffectPooler
+      value: 
+      objectReference: {fileID: 2051761471}
+    - target: {fileID: 5667489273986683426, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: PlayerStatistics
+      value: 
+      objectReference: {fileID: 1032983062}
     - target: {fileID: 7721959802744788283, guid: b359dfb4e00871243905aff2dad30471, type: 3}
       propertyPath: characterDeadBodyPooler
       value: 
@@ -2770,6 +2830,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1368560985559261244, guid: 4a3d0d31051e3cc45989b332ce543ab9, type: 3}
+      propertyPath: PlayerStatistics
+      value: 
+      objectReference: {fileID: 1032983062}
     - target: {fileID: 3994978775008093989, guid: 4a3d0d31051e3cc45989b332ce543ab9, type: 3}
       propertyPath: characterDeadBodyPooler
       value: 
@@ -2826,6 +2890,10 @@ PrefabInstance:
       propertyPath: m_FlipX
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8087230961125756496, guid: 4a3d0d31051e3cc45989b332ce543ab9, type: 3}
+      propertyPath: OneShotAudioEffectPooler
+      value: 
+      objectReference: {fileID: 2051761471}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a3d0d31051e3cc45989b332ce543ab9, type: 3}
 --- !u!1001 &430358046
@@ -2991,6 +3059,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1368560985559261244, guid: 4a3d0d31051e3cc45989b332ce543ab9, type: 3}
+      propertyPath: PlayerStatistics
+      value: 
+      objectReference: {fileID: 1032983062}
     - target: {fileID: 3994978775008093989, guid: 4a3d0d31051e3cc45989b332ce543ab9, type: 3}
       propertyPath: characterDeadBodyPooler
       value: 
@@ -3047,6 +3119,10 @@ PrefabInstance:
       propertyPath: m_FlipX
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8087230961125756496, guid: 4a3d0d31051e3cc45989b332ce543ab9, type: 3}
+      propertyPath: OneShotAudioEffectPooler
+      value: 
+      objectReference: {fileID: 2051761471}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a3d0d31051e3cc45989b332ce543ab9, type: 3}
 --- !u!1001 &440939227
@@ -3564,6 +3640,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cat Character Variant (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 3198523540740963406, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: OneShotAudioEffectPooler
+      value: 
+      objectReference: {fileID: 2051761471}
+    - target: {fileID: 5667489273986683426, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: PlayerStatistics
+      value: 
+      objectReference: {fileID: 1032983062}
     - target: {fileID: 7721959802744788283, guid: b359dfb4e00871243905aff2dad30471, type: 3}
       propertyPath: characterDeadBodyPooler
       value: 
@@ -3699,6 +3783,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cat Character Variant (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 3198523540740963406, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: OneShotAudioEffectPooler
+      value: 
+      objectReference: {fileID: 2051761471}
+    - target: {fileID: 5667489273986683426, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: PlayerStatistics
+      value: 
+      objectReference: {fileID: 1032983062}
     - target: {fileID: 7721959802744788283, guid: b359dfb4e00871243905aff2dad30471, type: 3}
       propertyPath: characterDeadBodyPooler
       value: 
@@ -3760,6 +3852,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cat Character Variant (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 3198523540740963406, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: OneShotAudioEffectPooler
+      value: 
+      objectReference: {fileID: 2051761471}
+    - target: {fileID: 5667489273986683426, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: PlayerStatistics
+      value: 
+      objectReference: {fileID: 1032983062}
     - target: {fileID: 7721959802744788283, guid: b359dfb4e00871243905aff2dad30471, type: 3}
       propertyPath: characterDeadBodyPooler
       value: 
@@ -3899,6 +3999,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cat Character Variant (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3198523540740963406, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: OneShotAudioEffectPooler
+      value: 
+      objectReference: {fileID: 2051761471}
+    - target: {fileID: 5667489273986683426, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: PlayerStatistics
+      value: 
+      objectReference: {fileID: 1032983062}
     - target: {fileID: 7721959802744788283, guid: b359dfb4e00871243905aff2dad30471, type: 3}
       propertyPath: characterDeadBodyPooler
       value: 
@@ -3964,6 +4072,14 @@ PrefabInstance:
       propertyPath: m_FlipX
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3198523540740963406, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: OneShotAudioEffectPooler
+      value: 
+      objectReference: {fileID: 2051761471}
+    - target: {fileID: 5667489273986683426, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: PlayerStatistics
+      value: 
+      objectReference: {fileID: 1032983062}
     - target: {fileID: 7721959802744788283, guid: b359dfb4e00871243905aff2dad30471, type: 3}
       propertyPath: characterDeadBodyPooler
       value: 
@@ -4556,6 +4672,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1368560985559261244, guid: 4a3d0d31051e3cc45989b332ce543ab9, type: 3}
+      propertyPath: PlayerStatistics
+      value: 
+      objectReference: {fileID: 1032983062}
     - target: {fileID: 3994978775008093989, guid: 4a3d0d31051e3cc45989b332ce543ab9, type: 3}
       propertyPath: characterDeadBodyPooler
       value: 
@@ -4612,6 +4732,10 @@ PrefabInstance:
       propertyPath: m_FlipX
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8087230961125756496, guid: 4a3d0d31051e3cc45989b332ce543ab9, type: 3}
+      propertyPath: OneShotAudioEffectPooler
+      value: 
+      objectReference: {fileID: 2051761471}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a3d0d31051e3cc45989b332ce543ab9, type: 3}
 --- !u!1001 &611413727
@@ -4862,6 +4986,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1368560985559261244, guid: 4a3d0d31051e3cc45989b332ce543ab9, type: 3}
+      propertyPath: PlayerStatistics
+      value: 
+      objectReference: {fileID: 1032983062}
     - target: {fileID: 3994978775008093989, guid: 4a3d0d31051e3cc45989b332ce543ab9, type: 3}
       propertyPath: characterDeadBodyPooler
       value: 
@@ -4914,6 +5042,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Owl Character Variant (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8087230961125756496, guid: 4a3d0d31051e3cc45989b332ce543ab9, type: 3}
+      propertyPath: OneShotAudioEffectPooler
+      value: 
+      objectReference: {fileID: 2051761471}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a3d0d31051e3cc45989b332ce543ab9, type: 3}
 --- !u!1001 &647350430
@@ -5049,6 +5181,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cat Character Variant (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 3198523540740963406, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: OneShotAudioEffectPooler
+      value: 
+      objectReference: {fileID: 2051761471}
+    - target: {fileID: 5667489273986683426, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: PlayerStatistics
+      value: 
+      objectReference: {fileID: 1032983062}
     - target: {fileID: 7721959802744788283, guid: b359dfb4e00871243905aff2dad30471, type: 3}
       propertyPath: characterDeadBodyPooler
       value: 
@@ -5345,6 +5485,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 810120198634524303, guid: 96afd3c77ae52e14385bc10c5b2f940b, type: 3}
+      propertyPath: OneShotAudioEffectPooler
+      value: 
+      objectReference: {fileID: 2051761471}
     - target: {fileID: 2832666182392124076, guid: 96afd3c77ae52e14385bc10c5b2f940b, type: 3}
       propertyPath: m_FlipX
       value: 1
@@ -5401,6 +5545,10 @@ PrefabInstance:
       propertyPath: characterDeadBodyPooler
       value: 
       objectReference: {fileID: 2091336246}
+    - target: {fileID: 7636881513891242211, guid: 96afd3c77ae52e14385bc10c5b2f940b, type: 3}
+      propertyPath: PlayerStatistics
+      value: 
+      objectReference: {fileID: 1032983062}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96afd3c77ae52e14385bc10c5b2f940b, type: 3}
 --- !u!1001 &770837081
@@ -5840,6 +5988,14 @@ PrefabInstance:
       propertyPath: m_FlipX
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3198523540740963406, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: OneShotAudioEffectPooler
+      value: 
+      objectReference: {fileID: 2051761471}
+    - target: {fileID: 5667489273986683426, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: PlayerStatistics
+      value: 
+      objectReference: {fileID: 1032983062}
     - target: {fileID: 7721959802744788283, guid: b359dfb4e00871243905aff2dad30471, type: 3}
       propertyPath: characterDeadBodyPooler
       value: 
@@ -6193,6 +6349,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cat Character Variant (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 3198523540740963406, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: OneShotAudioEffectPooler
+      value: 
+      objectReference: {fileID: 2051761471}
+    - target: {fileID: 5667489273986683426, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: PlayerStatistics
+      value: 
+      objectReference: {fileID: 1032983062}
     - target: {fileID: 7721959802744788283, guid: b359dfb4e00871243905aff2dad30471, type: 3}
       propertyPath: characterDeadBodyPooler
       value: 
@@ -6805,6 +6969,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 810120198634524303, guid: 96afd3c77ae52e14385bc10c5b2f940b, type: 3}
+      propertyPath: OneShotAudioEffectPooler
+      value: 
+      objectReference: {fileID: 2051761471}
     - target: {fileID: 2832666184335063574, guid: 96afd3c77ae52e14385bc10c5b2f940b, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -6857,6 +7025,10 @@ PrefabInstance:
       propertyPath: characterDeadBodyPooler
       value: 
       objectReference: {fileID: 2091336246}
+    - target: {fileID: 7636881513891242211, guid: 96afd3c77ae52e14385bc10c5b2f940b, type: 3}
+      propertyPath: PlayerStatistics
+      value: 
+      objectReference: {fileID: 1032983062}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96afd3c77ae52e14385bc10c5b2f940b, type: 3}
 --- !u!1001 &951329254
@@ -6940,6 +7112,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 810120198634524303, guid: 96afd3c77ae52e14385bc10c5b2f940b, type: 3}
+      propertyPath: OneShotAudioEffectPooler
+      value: 
+      objectReference: {fileID: 2051761471}
     - target: {fileID: 2832666184335063574, guid: 96afd3c77ae52e14385bc10c5b2f940b, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -6992,6 +7168,10 @@ PrefabInstance:
       propertyPath: characterDeadBodyPooler
       value: 
       objectReference: {fileID: 2091336246}
+    - target: {fileID: 7636881513891242211, guid: 96afd3c77ae52e14385bc10c5b2f940b, type: 3}
+      propertyPath: PlayerStatistics
+      value: 
+      objectReference: {fileID: 1032983062}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96afd3c77ae52e14385bc10c5b2f940b, type: 3}
 --- !u!1001 &959160294
@@ -7235,6 +7415,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1368560985559261244, guid: 4a3d0d31051e3cc45989b332ce543ab9, type: 3}
+      propertyPath: PlayerStatistics
+      value: 
+      objectReference: {fileID: 1032983062}
     - target: {fileID: 3994978775008093989, guid: 4a3d0d31051e3cc45989b332ce543ab9, type: 3}
       propertyPath: characterDeadBodyPooler
       value: 
@@ -7287,6 +7471,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Owl Character Variant (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8087230961125756496, guid: 4a3d0d31051e3cc45989b332ce543ab9, type: 3}
+      propertyPath: OneShotAudioEffectPooler
+      value: 
+      objectReference: {fileID: 2051761471}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a3d0d31051e3cc45989b332ce543ab9, type: 3}
 --- !u!1001 &991641969
@@ -7520,6 +7708,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 810120198634524303, guid: 96afd3c77ae52e14385bc10c5b2f940b, type: 3}
+      propertyPath: OneShotAudioEffectPooler
+      value: 
+      objectReference: {fileID: 2051761471}
     - target: {fileID: 2832666182392124076, guid: 96afd3c77ae52e14385bc10c5b2f940b, type: 3}
       propertyPath: m_FlipX
       value: 1
@@ -7576,6 +7768,10 @@ PrefabInstance:
       propertyPath: characterDeadBodyPooler
       value: 
       objectReference: {fileID: 2091336246}
+    - target: {fileID: 7636881513891242211, guid: 96afd3c77ae52e14385bc10c5b2f940b, type: 3}
+      propertyPath: PlayerStatistics
+      value: 
+      objectReference: {fileID: 1032983062}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96afd3c77ae52e14385bc10c5b2f940b, type: 3}
 --- !u!1001 &1073210260
@@ -8277,6 +8473,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cat Character Variant (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 3198523540740963406, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: OneShotAudioEffectPooler
+      value: 
+      objectReference: {fileID: 2051761471}
+    - target: {fileID: 5667489273986683426, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: PlayerStatistics
+      value: 
+      objectReference: {fileID: 1032983062}
     - target: {fileID: 7721959802744788283, guid: b359dfb4e00871243905aff2dad30471, type: 3}
       propertyPath: characterDeadBodyPooler
       value: 
@@ -9171,6 +9375,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1368560985559261244, guid: 4a3d0d31051e3cc45989b332ce543ab9, type: 3}
+      propertyPath: PlayerStatistics
+      value: 
+      objectReference: {fileID: 1032983062}
     - target: {fileID: 3994978775008093989, guid: 4a3d0d31051e3cc45989b332ce543ab9, type: 3}
       propertyPath: characterDeadBodyPooler
       value: 
@@ -9227,6 +9435,10 @@ PrefabInstance:
       propertyPath: m_FlipX
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8087230961125756496, guid: 4a3d0d31051e3cc45989b332ce543ab9, type: 3}
+      propertyPath: OneShotAudioEffectPooler
+      value: 
+      objectReference: {fileID: 2051761471}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a3d0d31051e3cc45989b332ce543ab9, type: 3}
 --- !u!1001 &1346733821
@@ -9518,6 +9730,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cat Character Variant (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 3198523540740963406, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: OneShotAudioEffectPooler
+      value: 
+      objectReference: {fileID: 2051761471}
+    - target: {fileID: 5667489273986683426, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: PlayerStatistics
+      value: 
+      objectReference: {fileID: 1032983062}
     - target: {fileID: 7721959802744788283, guid: b359dfb4e00871243905aff2dad30471, type: 3}
       propertyPath: characterDeadBodyPooler
       value: 
@@ -9835,6 +10055,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 810120198634524303, guid: 96afd3c77ae52e14385bc10c5b2f940b, type: 3}
+      propertyPath: OneShotAudioEffectPooler
+      value: 
+      objectReference: {fileID: 2051761471}
     - target: {fileID: 2832666182392124076, guid: 96afd3c77ae52e14385bc10c5b2f940b, type: 3}
       propertyPath: m_FlipX
       value: 1
@@ -9891,6 +10115,10 @@ PrefabInstance:
       propertyPath: characterDeadBodyPooler
       value: 
       objectReference: {fileID: 2091336246}
+    - target: {fileID: 7636881513891242211, guid: 96afd3c77ae52e14385bc10c5b2f940b, type: 3}
+      propertyPath: PlayerStatistics
+      value: 
+      objectReference: {fileID: 1032983062}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96afd3c77ae52e14385bc10c5b2f940b, type: 3}
 --- !u!1001 &1444713853
@@ -10606,6 +10834,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cat Character Variant (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 3198523540740963406, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: OneShotAudioEffectPooler
+      value: 
+      objectReference: {fileID: 2051761471}
+    - target: {fileID: 5667489273986683426, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: PlayerStatistics
+      value: 
+      objectReference: {fileID: 1032983062}
     - target: {fileID: 7721959802744788283, guid: b359dfb4e00871243905aff2dad30471, type: 3}
       propertyPath: characterDeadBodyPooler
       value: 
@@ -10619,6 +10855,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 810120198634524303, guid: 96afd3c77ae52e14385bc10c5b2f940b, type: 3}
+      propertyPath: OneShotAudioEffectPooler
+      value: 
+      objectReference: {fileID: 2051761471}
     - target: {fileID: 2832666182392124076, guid: 96afd3c77ae52e14385bc10c5b2f940b, type: 3}
       propertyPath: m_FlipX
       value: 1
@@ -10675,6 +10915,10 @@ PrefabInstance:
       propertyPath: characterDeadBodyPooler
       value: 
       objectReference: {fileID: 2091336246}
+    - target: {fileID: 7636881513891242211, guid: 96afd3c77ae52e14385bc10c5b2f940b, type: 3}
+      propertyPath: PlayerStatistics
+      value: 
+      objectReference: {fileID: 1032983062}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96afd3c77ae52e14385bc10c5b2f940b, type: 3}
 --- !u!1001 &1516713265
@@ -10970,6 +11214,14 @@ PrefabInstance:
       propertyPath: m_FlipX
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3198523540740963406, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: OneShotAudioEffectPooler
+      value: 
+      objectReference: {fileID: 2051761471}
+    - target: {fileID: 5667489273986683426, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: PlayerStatistics
+      value: 
+      objectReference: {fileID: 1032983062}
     - target: {fileID: 7721959802744788283, guid: b359dfb4e00871243905aff2dad30471, type: 3}
       propertyPath: characterDeadBodyPooler
       value: 
@@ -11253,6 +11505,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cat Character Variant (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 3198523540740963406, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: OneShotAudioEffectPooler
+      value: 
+      objectReference: {fileID: 2051761471}
+    - target: {fileID: 5667489273986683426, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: PlayerStatistics
+      value: 
+      objectReference: {fileID: 1032983062}
     - target: {fileID: 7721959802744788283, guid: b359dfb4e00871243905aff2dad30471, type: 3}
       propertyPath: characterDeadBodyPooler
       value: 
@@ -20300,6 +20560,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cat Character Variant (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 3198523540740963406, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: OneShotAudioEffectPooler
+      value: 
+      objectReference: {fileID: 2051761471}
+    - target: {fileID: 5667489273986683426, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: PlayerStatistics
+      value: 
+      objectReference: {fileID: 1032983062}
     - target: {fileID: 7721959802744788283, guid: b359dfb4e00871243905aff2dad30471, type: 3}
       propertyPath: characterDeadBodyPooler
       value: 
@@ -20361,6 +20629,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cat Character Variant (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 3198523540740963406, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: OneShotAudioEffectPooler
+      value: 
+      objectReference: {fileID: 2051761471}
+    - target: {fileID: 5667489273986683426, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: PlayerStatistics
+      value: 
+      objectReference: {fileID: 1032983062}
     - target: {fileID: 7721959802744788283, guid: b359dfb4e00871243905aff2dad30471, type: 3}
       propertyPath: characterDeadBodyPooler
       value: 
@@ -20374,6 +20650,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1368560985559261244, guid: 4a3d0d31051e3cc45989b332ce543ab9, type: 3}
+      propertyPath: PlayerStatistics
+      value: 
+      objectReference: {fileID: 1032983062}
     - target: {fileID: 3994978775008093989, guid: 4a3d0d31051e3cc45989b332ce543ab9, type: 3}
       propertyPath: characterDeadBodyPooler
       value: 
@@ -20430,6 +20710,10 @@ PrefabInstance:
       propertyPath: m_FlipX
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8087230961125756496, guid: 4a3d0d31051e3cc45989b332ce543ab9, type: 3}
+      propertyPath: OneShotAudioEffectPooler
+      value: 
+      objectReference: {fileID: 2051761471}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a3d0d31051e3cc45989b332ce543ab9, type: 3}
 --- !u!1001 &1668876145
@@ -20800,6 +21084,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 810120198634524303, guid: 96afd3c77ae52e14385bc10c5b2f940b, type: 3}
+      propertyPath: OneShotAudioEffectPooler
+      value: 
+      objectReference: {fileID: 2051761471}
     - target: {fileID: 2832666184335063574, guid: 96afd3c77ae52e14385bc10c5b2f940b, type: 3}
       propertyPath: m_RootOrder
       value: 44
@@ -20852,6 +21140,10 @@ PrefabInstance:
       propertyPath: characterDeadBodyPooler
       value: 
       objectReference: {fileID: 2091336246}
+    - target: {fileID: 7636881513891242211, guid: 96afd3c77ae52e14385bc10c5b2f940b, type: 3}
+      propertyPath: PlayerStatistics
+      value: 
+      objectReference: {fileID: 1032983062}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96afd3c77ae52e14385bc10c5b2f940b, type: 3}
 --- !u!1001 &1743594649
@@ -20979,6 +21271,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cat Character Variant (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 3198523540740963406, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: OneShotAudioEffectPooler
+      value: 
+      objectReference: {fileID: 2051761471}
+    - target: {fileID: 5667489273986683426, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: PlayerStatistics
+      value: 
+      objectReference: {fileID: 1032983062}
     - target: {fileID: 7721959802744788283, guid: b359dfb4e00871243905aff2dad30471, type: 3}
       propertyPath: characterDeadBodyPooler
       value: 
@@ -21410,6 +21710,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cat Character Variant (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 3198523540740963406, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: OneShotAudioEffectPooler
+      value: 
+      objectReference: {fileID: 2051761471}
+    - target: {fileID: 5667489273986683426, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: PlayerStatistics
+      value: 
+      objectReference: {fileID: 1032983062}
     - target: {fileID: 7721959802744788283, guid: b359dfb4e00871243905aff2dad30471, type: 3}
       propertyPath: characterDeadBodyPooler
       value: 
@@ -21549,6 +21857,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cat Character Variant (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3198523540740963406, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: OneShotAudioEffectPooler
+      value: 
+      objectReference: {fileID: 2051761471}
+    - target: {fileID: 5667489273986683426, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: PlayerStatistics
+      value: 
+      objectReference: {fileID: 1032983062}
     - target: {fileID: 7721959802744788283, guid: b359dfb4e00871243905aff2dad30471, type: 3}
       propertyPath: characterDeadBodyPooler
       value: 
@@ -22174,6 +22490,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 810120198634524303, guid: 96afd3c77ae52e14385bc10c5b2f940b, type: 3}
+      propertyPath: OneShotAudioEffectPooler
+      value: 
+      objectReference: {fileID: 2051761471}
     - target: {fileID: 2832666184335063574, guid: 96afd3c77ae52e14385bc10c5b2f940b, type: 3}
       propertyPath: m_RootOrder
       value: 43
@@ -22226,6 +22546,10 @@ PrefabInstance:
       propertyPath: characterDeadBodyPooler
       value: 
       objectReference: {fileID: 2091336246}
+    - target: {fileID: 7636881513891242211, guid: 96afd3c77ae52e14385bc10c5b2f940b, type: 3}
+      propertyPath: PlayerStatistics
+      value: 
+      objectReference: {fileID: 1032983062}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96afd3c77ae52e14385bc10c5b2f940b, type: 3}
 --- !u!1001 &1935445975
@@ -22387,6 +22711,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 810120198634524303, guid: 96afd3c77ae52e14385bc10c5b2f940b, type: 3}
+      propertyPath: OneShotAudioEffectPooler
+      value: 
+      objectReference: {fileID: 2051761471}
     - target: {fileID: 2832666184335063574, guid: 96afd3c77ae52e14385bc10c5b2f940b, type: 3}
       propertyPath: m_RootOrder
       value: 45
@@ -22439,6 +22767,10 @@ PrefabInstance:
       propertyPath: characterDeadBodyPooler
       value: 
       objectReference: {fileID: 2091336246}
+    - target: {fileID: 7636881513891242211, guid: 96afd3c77ae52e14385bc10c5b2f940b, type: 3}
+      propertyPath: PlayerStatistics
+      value: 
+      objectReference: {fileID: 1032983062}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96afd3c77ae52e14385bc10c5b2f940b, type: 3}
 --- !u!1001 &1971867207
@@ -22644,6 +22976,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cat Character Variant (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3198523540740963406, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: OneShotAudioEffectPooler
+      value: 
+      objectReference: {fileID: 2051761471}
+    - target: {fileID: 5667489273986683426, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: PlayerStatistics
+      value: 
+      objectReference: {fileID: 1032983062}
     - target: {fileID: 7721959802744788283, guid: b359dfb4e00871243905aff2dad30471, type: 3}
       propertyPath: characterDeadBodyPooler
       value: 
@@ -22657,6 +22997,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1368560985559261244, guid: 4a3d0d31051e3cc45989b332ce543ab9, type: 3}
+      propertyPath: PlayerStatistics
+      value: 
+      objectReference: {fileID: 1032983062}
     - target: {fileID: 3994978775008093989, guid: 4a3d0d31051e3cc45989b332ce543ab9, type: 3}
       propertyPath: characterDeadBodyPooler
       value: 
@@ -22709,6 +23053,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Owl Character Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 8087230961125756496, guid: 4a3d0d31051e3cc45989b332ce543ab9, type: 3}
+      propertyPath: OneShotAudioEffectPooler
+      value: 
+      objectReference: {fileID: 2051761471}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a3d0d31051e3cc45989b332ce543ab9, type: 3}
 --- !u!1001 &2021438720
@@ -23061,6 +23409,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cat Character Variant (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 3198523540740963406, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: OneShotAudioEffectPooler
+      value: 
+      objectReference: {fileID: 2051761471}
+    - target: {fileID: 5667489273986683426, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: PlayerStatistics
+      value: 
+      objectReference: {fileID: 1032983062}
     - target: {fileID: 7721959802744788283, guid: b359dfb4e00871243905aff2dad30471, type: 3}
       propertyPath: characterDeadBodyPooler
       value: 
@@ -23122,6 +23478,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cat Character Variant (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 3198523540740963406, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: OneShotAudioEffectPooler
+      value: 
+      objectReference: {fileID: 2051761471}
+    - target: {fileID: 5667489273986683426, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: PlayerStatistics
+      value: 
+      objectReference: {fileID: 1032983062}
     - target: {fileID: 7721959802744788283, guid: b359dfb4e00871243905aff2dad30471, type: 3}
       propertyPath: characterDeadBodyPooler
       value: 
@@ -23187,8 +23551,23 @@ PrefabInstance:
       propertyPath: m_Name
       value: Main
       objectReference: {fileID: 0}
+    - target: {fileID: 6784821783570085728, guid: 95c96ed9baa404f49983ebf8bafc9834, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95c96ed9baa404f49983ebf8bafc9834, type: 3}
+--- !u!114 &2051761471 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 857222626406941194, guid: 95c96ed9baa404f49983ebf8bafc9834, type: 3}
+  m_PrefabInstance: {fileID: 2051761470}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9778219d4733f34a9cfba078f11ee27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2062460053
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23466,6 +23845,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cat Character Variant (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 3198523540740963406, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: OneShotAudioEffectPooler
+      value: 
+      objectReference: {fileID: 2051761471}
+    - target: {fileID: 5667489273986683426, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: PlayerStatistics
+      value: 
+      objectReference: {fileID: 1032983062}
     - target: {fileID: 7721959802744788283, guid: b359dfb4e00871243905aff2dad30471, type: 3}
       propertyPath: characterDeadBodyPooler
       value: 
@@ -23686,6 +24073,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cat Character Variant (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3198523540740963406, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: OneShotAudioEffectPooler
+      value: 
+      objectReference: {fileID: 2051761471}
+    - target: {fileID: 5667489273986683426, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: PlayerStatistics
+      value: 
+      objectReference: {fileID: 1032983062}
     - target: {fileID: 7721959802744788283, guid: b359dfb4e00871243905aff2dad30471, type: 3}
       propertyPath: characterDeadBodyPooler
       value: 
@@ -23747,6 +24142,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cat Character Variant (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 3198523540740963406, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: OneShotAudioEffectPooler
+      value: 
+      objectReference: {fileID: 2051761471}
+    - target: {fileID: 5667489273986683426, guid: b359dfb4e00871243905aff2dad30471, type: 3}
+      propertyPath: PlayerStatistics
+      value: 
+      objectReference: {fileID: 1032983062}
     - target: {fileID: 7721959802744788283, guid: b359dfb4e00871243905aff2dad30471, type: 3}
       propertyPath: characterDeadBodyPooler
       value: 

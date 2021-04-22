@@ -1,6 +1,7 @@
 using Platformer2DStarterKit.AI;
 
 public class BuddhaHeadAIActionSetup : AIActionSetup {
+    public AttackAIAction AttackAIAction;
     public CharacterInputFollowAIAction CharacterInputFollowAIAction;
 
     protected override void Setup(ICharacter character) {
@@ -9,6 +10,7 @@ public class BuddhaHeadAIActionSetup : AIActionSetup {
         FollowData followData = new FollowData(character);
         CharacterInputFollowAIAction.FollowData = followData;
 
+        character.ActionList.AddAction(AttackAIAction);
         character.ActionList.AddAction(CharacterInputFollowAIAction);
     }
 

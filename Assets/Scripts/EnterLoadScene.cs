@@ -7,9 +7,11 @@ public class EnterLoadScene : MonoBehaviour {
     public string SceneName;
 
     public Check Check;
+    public PlayerStatistics PlayerStatistics;
 
     private void FixedUpdate() {
         if (Check.Evaluate()) {
+            PlayerStatistics.Save(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
             LoadScene.Load(SceneName);
             enabled = false;
         }

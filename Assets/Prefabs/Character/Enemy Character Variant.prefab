@@ -1,5 +1,19 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &506206047426223924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5310419143492617727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfe2f4f8408036748a3d49ac71c9896b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CharacterDeath: {fileID: 2488653616623933485}
+  PlayerStatistics: {fileID: 0}
 --- !u!114 &4557422470681401774
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31,6 +45,20 @@ MonoBehaviour:
   MovementExecution: {fileID: 8052381586169846937}
   Speed: {fileID: 2490690621535761595}
   poolerRepository: {fileID: 0}
+--- !u!114 &7332951969687433560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5310419143492617727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c074259bb0c6db84198428ae407e9dcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CharacterDeath: {fileID: 2488653616623933485}
+  OneShotAudioEffectPooler: {fileID: 0}
 --- !u!1001 &621763810582901032
 PrefabInstance:
   m_ObjectHideFlags: 0

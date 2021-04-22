@@ -12,6 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 201eb91bba601d342a3fb762cae9c965, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AttackAIAction:
+    CharacterAnimator: {fileID: 3196246899395439837}
+    AttackAnimation: {fileID: 11400000, guid: f8b36b0b8d8d1234db497aaefeac5503, type: 2}
+    AttackTime: 0.4
+    AttackCheck: {fileID: 2242489727894196823}
+    AttackGetColliders: {fileID: 7585938823896598142}
+    AttackOffsetX: 0.25
+  SetGravityScaleAIAction:
+    CharacterFall: {fileID: 94428264245010406}
+    SetValue: 0
+    OffValue: 1
   FlyAIAction:
     CharacterAnimator: {fileID: 3196246899395439837}
     FlyingAnimation: {fileID: 11400000, guid: e2ffc3d87b9b9e24ba75590c81477d5e, type: 2}
@@ -24,13 +35,6 @@ MonoBehaviour:
       PatrolTime: 1
       PauseTime: 0.5
       ActionTime: 4
-  AttackAIAction:
-    CharacterAnimator: {fileID: 3196246899395439837}
-    AttackAnimation: {fileID: 11400000, guid: f8b36b0b8d8d1234db497aaefeac5503, type: 2}
-    AttackTime: 0.4
-    AttackCheck: {fileID: 2242489727894196823}
-    AttackGetColliders: {fileID: 7585938823896598142}
-    AttackOffsetX: 0.25
   SetAnimationAIAction:
     Animation: {fileID: 11400000, guid: 3e9fa1eba1d785048b5231aef39a9900, type: 2}
 --- !u!1 &1839541715993640331
@@ -531,6 +535,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5310419143492617665, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
   m_PrefabInstance: {fileID: 1583152986917011208}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &94428264245010406 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1492669779287073006, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}
+  m_PrefabInstance: {fileID: 1583152986917011208}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6650157846048979703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93555cba95ff81f4c991fd8769735f3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &3196246899395439837 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4153203818049426389, guid: 73043f80459417d43a1d305d5885ce4e, type: 3}

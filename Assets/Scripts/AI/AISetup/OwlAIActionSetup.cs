@@ -1,8 +1,9 @@
 using Platformer2DStarterKit.AI;
 
 public class OwlAIActionSetup : AIActionSetup {
-    public FlyAIAction FlyAIAction;
     public AttackAIAction AttackAIAction;
+    public SetGravityScaleAIAction SetGravityScaleAIAction;
+    public FlyAIAction FlyAIAction;
     public SetAnimationAIAction SetAnimationAIAction;
 
     protected override void Setup(ICharacter character) {
@@ -11,21 +12,25 @@ public class OwlAIActionSetup : AIActionSetup {
         FollowData followData = new FollowData(character);
         FlyAIAction.FollowData = followData;
 
-        ConditionalComboAIAction<AttackAIAction> comboAIAction = new ConditionalComboAIAction<AttackAIAction> {
+        ConditionalComboAIAction<AttackAIAction> attackComboAIAction = new ConditionalComboAIAction<AttackAIAction> {
             Action = AttackAIAction,
             ActionList = new AIActionList(character, character.ActionList.PoolerRepository),
             ExecuteAll = false
         };
-        comboAIAction.ActionList.AddAction(new SetGravityScaleAIAction {
-            SetValue = 0f,
-            OffValue = 1f
-        });
+        attackComboAIAction.ActionList.AddAction(SetGravityScaleAIAction);
+
+        ConditionalComboAIAction<FlyAIAction> flyComboAIAction = new ConditionalComboAIAction<FlyAIAction> {
+            Action = FlyAIAction,
+            ActionList = new AIActionList(character, character.ActionList.PoolerRepository),
+            ExecuteAll = false
+        };
+        flyComboAIAction.ActionList.AddAction(SetGravityScaleAIAction);
 
         character.ActionList.AddAction(new ExecuteDataAIAction {
             FollowData = followData
         });
-        character.ActionList.AddAction(comboAIAction);
-        character.ActionList.AddAction(FlyAIAction);
+        character.ActionList.AddAction(attackComboAIAction);
+        character.ActionList.AddAction(flyComboAIAction);
         character.ActionList.AddAction(FlyAIAction.PatrolAIAction);
         character.ActionList.AddAction(SetAnimationAIAction);
     }

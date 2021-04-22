@@ -21,12 +21,12 @@ public class FlyAIAction : IAIAction, IAIAction.IConditional, IAIAction.IStartab
 
     private enum State {
         None, Hover, Follow, Attack
-    }
+    };
     private State currentState = State.None;
     public bool Condition(IAIAction.IConditional.Token token) {
         switch (currentState) {
             case State.Hover:
-                return true;
+                return !token.Source.Character.GroundCheck.Evaluate();
             default:
                 if (AttackGetColliders.Get(out Collider2D col)) {
                     FollowData.SetPosition(col.transform.position);
@@ -36,17 +36,18 @@ public class FlyAIAction : IAIAction, IAIAction.IConditional, IAIAction.IStartab
                     FollowData.SetPosition(col.transform.position);
                     currentState = State.Follow;
                     return true;
+                } else if (currentState != State.None) {
+                    currentState = State.Hover;
+                    return true;
                 }
-                break;
+                return false;
         }
-        return false;
     }
 
     public void Start(IAIAction.IStartable.Token token) {
         token.Source.Movement.enabled = false;
         token.Source.Jump.enabled = false;
         CharacterAnimator.enabled = false;
-        token.Source.Rigidbody.gravityScale = 0f;
         token.Source.Animator.SetAnimation(FlyingAnimation);
         PatrolAIAction.SetTime();
     }
@@ -54,7 +55,6 @@ public class FlyAIAction : IAIAction, IAIAction.IConditional, IAIAction.IStartab
     public void Cancel(IAIAction.ICancelable.Token token) {
         currentState = State.None;
         token.Source.Character.Input.Dir = CharacterInput.Direction.None;
-        token.Source.Rigidbody.gravityScale = 1f;
         token.Source.Movement.enabled = true;
         token.Source.Jump.enabled = true;
         CharacterAnimator.enabled = true;
@@ -107,8 +107,6 @@ public class FlyAIAction : IAIAction, IAIAction.IConditional, IAIAction.IStartab
     }
 
     private bool Hover(AIActionList.Token token) {
-        if (token.Source.Character.GroundCheck.Evaluate())
-            return false;
         if (HoverGroundBelowCheck.Evaluate())
             token.Source.MovementExecution.AddPosition(new Vector2(0f, -Speed * Time.fixedDeltaTime));
         return true;

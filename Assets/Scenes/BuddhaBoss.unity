@@ -263,6 +263,17 @@ BoxCollider2D:
   m_CorrespondingSourceObject: {fileID: 4323520004330531746, guid: 3858e85577216f34195d993365208aeb, type: 3}
   m_PrefabInstance: {fileID: 50496355}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &54303549 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 467817194233097794, guid: df82af138eb2ddf41bbd9a3ca0f49a4c, type: 3}
+  m_PrefabInstance: {fileID: 980502884295851043}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9778219d4733f34a9cfba078f11ee27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &73113235
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1422,6 +1433,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4083797185178051432, guid: 9cb2553bf743dd64397f9bc61c7a71f9, type: 3}
+      propertyPath: OneShotAudioEffectPooler
+      value: 
+      objectReference: {fileID: 54303549}
     - target: {fileID: 5364944198543594699, guid: 9cb2553bf743dd64397f9bc61c7a71f9, type: 3}
       propertyPath: BuddhaScene
       value: 
@@ -1443,10 +1458,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 164597868}
     - target: {fileID: 5364944198543594699, guid: 9cb2553bf743dd64397f9bc61c7a71f9, type: 3}
-      propertyPath: BuddhaAIAction.KillLayerMask.m_Bits
-      value: 512
-      objectReference: {fileID: 0}
-    - target: {fileID: 5364944198543594699, guid: 9cb2553bf743dd64397f9bc61c7a71f9, type: 3}
       propertyPath: BuddhaAIAction.MovePoints.Array.size
       value: 3
       objectReference: {fileID: 0}
@@ -1466,6 +1477,10 @@ PrefabInstance:
       propertyPath: OneShotAudioPooler
       value: 
       objectReference: {fileID: 2051249368}
+    - target: {fileID: 6514747845134896388, guid: 9cb2553bf743dd64397f9bc61c7a71f9, type: 3}
+      propertyPath: PlayerStatistics
+      value: 
+      objectReference: {fileID: 991482408}
     - target: {fileID: 6694595487283184745, guid: 9cb2553bf743dd64397f9bc61c7a71f9, type: 3}
       propertyPath: m_Name
       value: Buddha
@@ -9106,7 +9121,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6031434098501691432, guid: df82af138eb2ddf41bbd9a3ca0f49a4c, type: 3}
   m_PrefabInstance: {fileID: 980502884295851043}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 980502884295851045}
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f7583b92eee7d37439131a44c8097b85, type: 3}
@@ -9950,6 +9965,7 @@ GameObject:
   - component: {fileID: 1637620437}
   - component: {fileID: 1637620436}
   - component: {fileID: 1637620435}
+  - component: {fileID: 1637620441}
   m_Layer: 0
   m_Name: Treasure
   m_TagString: Untagged
@@ -10016,6 +10032,7 @@ MonoBehaviour:
   LoadScene: {fileID: 1637620435}
   SceneName: TreasureEnd
   Check: {fileID: 1637620437}
+  PlayerStatistics: {fileID: 991482408}
 --- !u!212 &1637620439
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10081,6 +10098,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1637620441
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1637620434}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6bf124a6faf7ae94ebfbe38d100b5ad6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &1669511616
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10261,7 +10297,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1700827677}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10, y: 27, z: 0}
+  m_LocalPosition: {x: 8, y: 24, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1405799083}
@@ -10274,6 +10310,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 320446771}
     m_Modifications:
+    - target: {fileID: 1368560985559261244, guid: 4a3d0d31051e3cc45989b332ce543ab9, type: 3}
+      propertyPath: PlayerStatistics
+      value: 
+      objectReference: {fileID: 991482408}
     - target: {fileID: 6650157846048979657, guid: 4a3d0d31051e3cc45989b332ce543ab9, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -10326,6 +10366,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8087230961125756496, guid: 4a3d0d31051e3cc45989b332ce543ab9, type: 3}
+      propertyPath: OneShotAudioEffectPooler
+      value: 
+      objectReference: {fileID: 54303549}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a3d0d31051e3cc45989b332ce543ab9, type: 3}
 --- !u!114 &1729679742 stripped
@@ -11177,9 +11221,57 @@ PrefabInstance:
       propertyPath: m_Name
       value: BossMain
       objectReference: {fileID: 0}
+    - target: {fileID: 6031434098501691435, guid: df82af138eb2ddf41bbd9a3ca0f49a4c, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 715918432, guid: df82af138eb2ddf41bbd9a3ca0f49a4c, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: df82af138eb2ddf41bbd9a3ca0f49a4c, type: 3}
+--- !u!114 &980502884295851044 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6031434098501691435, guid: df82af138eb2ddf41bbd9a3ca0f49a4c, type: 3}
+  m_PrefabInstance: {fileID: 980502884295851043}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 980502884295851045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &980502884295851045 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6031434098501691436, guid: df82af138eb2ddf41bbd9a3ca0f49a4c, type: 3}
+  m_PrefabInstance: {fileID: 980502884295851043}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &980502884295851046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 980502884295851045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7583b92eee7d37439131a44c8097b85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Time: 1
+  Alpha: 0
+  Image: {fileID: 980502884295851044}
+--- !u!114 &980502884295851047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 980502884295851045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87b7d032d196e9d468c999af8486bb1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AnimationUI: {fileID: 980502884295851046}
 --- !u!1001 &3057451752380957160
 PrefabInstance:
   m_ObjectHideFlags: 0
