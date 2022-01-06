@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10e7c5550d4f54c49a6af1657d76a99b, type: 3}
+  m_Name: ColorExplorerIdleAnimation
+  m_EditorClassIdentifier: 
+  Loop: 0
+  frames:
+  - Interval: 0
+    sprite: {fileID: -97517470, guid: c88a8642496e04f4da49b8900fc8b84f, type: 3}
