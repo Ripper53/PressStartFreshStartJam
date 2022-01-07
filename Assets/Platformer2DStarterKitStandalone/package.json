@@ -1,0 +1,19 @@
+{
+  "name": "com.albar.platformer2dstarterkit",
+  "version": "0.0.3",
+  "displayName": "Platformer 2D Starter Kit",
+  "type": "Starter Kit",
+  "dependencies": {
+    "com.unity.inputsystem": "1.0.0"
+  },
+  "keywords": [
+    "platformer",
+    "2d",
+    "2d platformer",
+    "starter-kit"
+  ],
+  "author": {
+    "name": "Albar"
+  },
+  "description": "Head-start your game development!"
+}
